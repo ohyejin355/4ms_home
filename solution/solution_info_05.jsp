@@ -10,9 +10,13 @@
 
     <main>
         <div class="relative pt-16 md:pt-20">
-            <div class="sub_visual_box" align="center" style="background-image: url(/imgae/sub/sub_visual_img_bg.png);">
-                <%@include file="/include/sub_solution_menu.jsp"%>
+            <div class="relative py-24 md:py-32 bg-cover bg-center" style="background-image: url(/imgae/sub/sub_visual_img_bg.png);">
+                <div class="absolute inset-0 bg-slate-900 opacity-60"></div>
+                <div class="relative max-w-7xl mx-auto px-6 lg:px-8 text-center">
+                    <h1 class="text-3xl md:text-4xl font-black text-white">솔루션</h1>
+                </div>
             </div>
+            <%@include file="/include/sub_solution_menu.jsp"%>
         </div>
 
         <section class="py-16 md:py-24">
@@ -31,9 +35,9 @@
                 </div>
 
                 <div class="max-w-5xl mx-auto">
-                    <p class="text-slate-700 leading-relaxed mb-12 text-center">
-                        대부분의 선도기업들이 AI도입을 서두르는 이유는 ‘새로운 디지털환경에서의 적극적인 대응과 경쟁업종보다 빠른 비즈니스의 변화 방향성과 기회 발굴’에 그 목적이 있으며, 실제로 이러한 노력들은 기업의 경쟁력에서 차이를 만들어내고 있습니다.
-                    </p>
+                    <p class="text-slate-700 leading-relaxed mb-12 text-center whitespace-pre-line">
+                        대부분의 선도기업들이 AI도입을 서두르는 이유는 ‘새로운 디지털환경에서의 적극적인 대응과 경쟁업종보다 빠른 비즈니스의 변화 방향성과 기회 발굴’에 그 목적이 있으며,
+                        실제로 이러한 노력들은 기업의 경쟁력에서 차이를 만들어내고 있습니다.</p>
 
                     <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
                         <div class="border rounded-lg shadow">

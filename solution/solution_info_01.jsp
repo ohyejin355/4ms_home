@@ -10,9 +10,13 @@
 
     <main>
         <div class="relative pt-16 md:pt-20">
-            <div class="sub_visual_box" align="center" style="background-image: url(/imgae/sub/sub_visual_img_bg.png);">
-                <%@include file="/include/sub_solution_menu.jsp"%>
+            <div class="relative py-24 md:py-32 bg-cover bg-center" style="background-image: url(/imgae/sub/sub_visual_img_bg.png);">
+                <div class="absolute inset-0 bg-slate-900 opacity-60"></div>
+                <div class="relative max-w-7xl mx-auto px-6 lg:px-8 text-center">
+                    <h1 class="text-3xl md:text-4xl font-black text-white">솔루션</h1>
+                </div>
             </div>
+            <%@include file="/include/sub_solution_menu.jsp"%>
         </div>
 
         <section class="py-16 md:py-24">
@@ -31,9 +35,8 @@
                 </div>
 
                 <div class="max-w-4xl mx-auto">
-                    <p class="text-slate-700 leading-relaxed mb-8">
-                        AI 는 ‘자연어처리기능’과 ‘자체학습기능’ 두 가지의 핵심 기능으로 구성되어 있습니다. 기업의 기존 시스템에 적용될 수 있도록 두 가지의 핵심 기능이 패키지화된 것을 AI엔진이라 하며, 
-                        이러한 엔진이 효과적으로 적용 및 구동될 때에 진정한 의미의 AI라 할 수 있습니다.
+                    <p class="text-slate-700 leading-relaxed mb-8 whitespace-pre-line">
+                        AI 는 ‘자연어처리기능’과 ‘자체학습기능’ 두 가지의 핵심 기능으로 구성되어 있습니다. 기업의 기존 시스템에 적용될 수 있도록 두 가지의 핵심 기능이 패키지화된 것을 AI엔진이라 하며,이러한 엔진이 효과적으로 적용 및 구동될 때에 진정한 의미의 AI라 할 수 있습니다.
                     </p>
                     <img src="/imgae/sub/sol_01_01_img.png" alt="AI Core Functions" class="mx-auto my-8">
 

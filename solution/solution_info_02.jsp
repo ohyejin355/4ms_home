@@ -10,9 +10,13 @@
 
     <main>
         <div class="relative pt-16 md:pt-20">
-            <div class="sub_visual_box" align="center" style="background-image: url(/imgae/sub/sub_visual_img_bg.png);">
-                <%@include file="/include/sub_solution_menu.jsp"%>
+            <div class="relative py-24 md:py-32 bg-cover bg-center" style="background-image: url(/imgae/sub/sub_visual_img_bg.png);">
+                <div class="absolute inset-0 bg-slate-900 opacity-60"></div>
+                <div class="relative max-w-7xl mx-auto px-6 lg:px-8 text-center">
+                    <h1 class="text-3xl md:text-4xl font-black text-white">솔루션</h1>
+                </div>
             </div>
+            <%@include file="/include/sub_solution_menu.jsp"%>
         </div>
 
         <section class="py-16 md:py-24">
@@ -31,8 +35,9 @@
                 </div>
 
                 <div class="max-w-5xl mx-auto">
-                    <p class="text-slate-700 leading-relaxed mb-8">
-                        국내 금융권 챗봇은 ‘자연어처리기반’과 ‘정해진 룰 기반’ 두 가지 케이스로 운영되고 있습니다. 룰 기반 챗봇은 자연어 인지 기능이 없기에 운영자가 지속적으로 룰을 추가하는 방식으로 한계가 있으며, 자연어처리기반과의 차이점을 이해하는 것이 반드시 필요합니다.
+                    <p class="text-slate-700 leading-relaxed mb-8 whitespace-pre-line">
+                        국내 금융권 챗봇은 ‘자연어처리기반’과 ‘정해진 룰 기반’ 두 가지 케이스로 운영되고 있습니다. 룰 기반 챗봇은 자연어 인지 기능이 없기에 운영자가 지속적으로 룰을 추가하는 방식으로 한계가 있으며,
+                        자연어처리기반과의 차이점을 이해하는 것이 반드시 필요합니다.
                     </p>
                     <img src="/imgae/sub/sol_02_01_img.png" alt="Chatbot types" class="mx-auto my-8">
 

@@ -10,10 +10,14 @@
 
     <main>
         <div class="relative pt-16 md:pt-20">
-            <div class="sub_visual_box" align="center" style="background-image: url(/imgae/sub/sub_visual_img_bg.png);">
-                <% request.setAttribute("pageId", "mainten"); %>
-                <%@include file="/include/sub_business_menu.jsp"%>
+            <div class="relative py-24 md:py-32 bg-cover bg-center" style="background-image: url(/imgae/sub/sub_visual_img_bg.png);">
+                <div class="absolute inset-0 bg-slate-900 opacity-60"></div>
+                <div class="relative max-w-7xl mx-auto px-6 lg:px-8 text-center">
+                    <h1 class="text-3xl md:text-4xl font-black text-white">사업영역</h1>
+                </div>
             </div>
+            <% request.setAttribute("pageId", "mainten"); %>
+            <%@include file="/include/sub_business_menu.jsp"%>
         </div>
 
         <section class="py-16 md:py-24">
@@ -24,8 +28,9 @@
                 </div>
 
                 <div class="bg-slate-100 text-left p-12 rounded-lg mb-16 border-l-4 border-teal-600">
-                    <p class="text-xl md:text-2xl font-semibold text-slate-700 leading-relaxed">
-                        주식회사 포엠에스는 고객의 시스템 별로 각각 전담 인력을 배정하여 안정적으로 관리 및 운영을 지원하고 있습니다.
+                    <p class="text-xl md:text-2xl font-semibold text-slate-700 leading-relaxed whitespace-pre-line">
+                        주식회사 포엠에스는 고객의 시스템 별로 각각 전담 인력을 배정하여 안정적으로 관리 및 운영을 지원하고
+                        있습니다.
                     </p>
                 </div>
 
@@ -46,11 +51,12 @@
                             </div>
                             <div class="bg-white p-6 rounded-lg shadow">
                                 <h4 class="font-bold text-center mb-2">양도증 발급관리</h4>
-                                <p class="text-sm text-slate-600">형식승인등록, 양도증 발급/미발급, 조회 등의 업무를 처리</p>
+                                <p class="text-sm text-slate-600 whitespace-pre-line">형식승인등록, 양도증 발급/미발급,
+                                    조회 등의 업무를 처리</p>
                             </div>
                             <div class="bg-white p-6 rounded-lg shadow">
                                 <h4 class="font-bold text-center mb-2">PDI(LOGISTIC)</h4>
-                                <p class="text-sm text-slate-600">Order, 선적, 통관, 입고, 재고, 출고 등의 업무를 처리</p>
+                                <p class="text-sm text-slate-600 whitespace-pre-line">Order, 선적, 통관, 입고, 재고, 출고 의 업무를 처리</p>
                             </div>
                         </div>
                         <img src="/imgae/sub/business_04_01.gif" alt="logo 이미지" class="mx-auto mb-8"/>
@@ -69,10 +75,12 @@
                         <p class="text-slate-600 leading-relaxed mb-8">
                             도선사협회(지회)에서 사용하는 운영·관리시스템으로써 인터넷을 이용한 도선예보관리 및 도선사배정, 협회와 선사·대리점간의 도선업무를 On-Line화 하여 구축한 시스템입니다. 특히, 개발 초기단계부터 수행한 도선사 전문컨설팅을 기반으로 단 한번의 정보 등록으로도 도선예보 처리, 배정처리, 청구, 세금계산서, 회계 처리까지 일원화된 DATA처리를 가능하게 합니다.
                         </p>
-                        <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
+                        <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8 whitespace-pre-line">
                              <div class="bg-white p-6 rounded-lg shadow">도선예보 신청의 On-Line화 체계 구축</div>
-                             <div class="bg-white p-6 rounded-lg shadow">협회의 e-business를 실현하고 부가수익을 창출 할 수 있는 프로모션 기능</div>
-                             <div class="bg-white p-6 rounded-lg shadow">최신 기술 적용(웹, 모바일, SMS기술)으로 프로세스의 개선 및 인건비 절감</div>
+                             <div class="bg-white p-6 rounded-lg shadow">협회의 e-business를 실현하고 부가수익을 창출 할 수 있는 
+                                프로모션 기능</div>
+                             <div class="bg-white p-6 rounded-lg shadow">최신 기술 적용(웹, 모바일, SMS기술)으로 프로세스의 개선 및 
+                                인건비 절감</div>
                              <div class="bg-white p-6 rounded-lg shadow">협회, 선사, 대리점, 관련업체가 공유할 수 있는 정보이용 체계 완성</div>
                              <div class="bg-white p-6 rounded-lg shadow">대리점의 도선예보 신청서에 의한 모든 작업처리를 일원화</div>
                              <div class="bg-white p-6 rounded-lg shadow">항만의 특성 및 도선구간의 특성에 따라 유연한 도선 배정</div>

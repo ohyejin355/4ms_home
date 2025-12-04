@@ -10,9 +10,13 @@
 
     <main>
         <div class="relative pt-16 md:pt-20">
-            <div class="sub_visual_box" align="center" style="background-image: url(/imgae/sub/sub_visual_img_bg.png);">
-                <%@include file="/include/sub_company_menu.jsp"%>
+            <div class="relative py-24 md:py-32 bg-cover bg-center" style="background-image: url(/imgae/sub/sub_visual_img_bg.png);">
+                <div class="absolute inset-0 bg-slate-900 opacity-60"></div>
+                <div class="relative max-w-7xl mx-auto px-6 lg:px-8 text-center">
+                    <h1 class="text-3xl md:text-4xl font-black text-white">회사소개</h1>
+                </div>
             </div>
+            <%@include file="/include/sub_company_menu.jsp"%>
         </div>
 
         <section class="py-16 md:py-24">
@@ -23,22 +27,42 @@
                     <p class="mt-4 text-lg text-slate-600">미래를 창조하는 주식회사 포엠에스</p>
                 </div>
 
-                <div class="grid grid-cols-1 md:grid-cols-4 gap-4 text-center mb-24">
-                    <div class="bg-slate-100 p-8 rounded-lg">
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 text-center mb-24">
+                    <div class="bg-white p-8 rounded-xl shadow-lg hover:shadow-xl hover:-translate-y-2 transition-all duration-300 transform">
+                        <div class="flex justify-center items-center mb-4 w-16 h-16 rounded-full bg-teal-100 text-teal-600 mx-auto">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-8 h-8">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 21h16.5M4.5 21V8.75A2.25 2.25 0 0 1 6.75 6.5h10.5a2.25 2.25 0 0 1 2.25 2.25V21M8.25 13.5h7.5M8.25 16.5h7.5" />
+                            </svg>
+                        </div>
                         <p class="text-sm font-semibold text-slate-500 uppercase">업종</p>
-                        <p class="text-2xl font-bold text-slate-800 mt-2">소프트웨어<br>개발 및 자문, 공급업</p>
+                        <p class="text-xl font-bold text-slate-800 mt-2">소프트웨어<br>개발 및 자문, 공급업</p>
                     </div>
-                    <div class="bg-slate-100 p-8 rounded-lg">
+                    <div class="bg-white p-8 rounded-xl shadow-lg hover:shadow-xl hover:-translate-y-2 transition-all duration-300 transform">
+                        <div class="flex justify-center items-center mb-4 w-16 h-16 rounded-full bg-cyan-100 text-cyan-600 mx-auto">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-8 h-8">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M16.5 6.375V6h-6v.375m6 0a2.25 2.25 0 0 1 2.25 2.25v7.5a2.25 2.25 0 0 1-2.25 2.25h-6a2.25 2.25 0 0 1-2.25-2.25v-7.5a2.25 2.25 0 0 1 2.25-2.25h6Z" />
+                            </svg>
+                        </div>
                         <p class="text-sm font-semibold text-slate-500 uppercase">업태</p>
-                        <p class="text-2xl font-bold text-slate-800 mt-2">서비스</p>
+                        <p class="text-xl font-bold text-slate-800 mt-2">서비스</p>
                     </div>
-                    <div class="bg-slate-100 p-8 rounded-lg">
+                    <div class="bg-white p-8 rounded-xl shadow-lg hover:shadow-xl hover:-translate-y-2 transition-all duration-300 transform">
+                        <div class="flex justify-center items-center mb-4 w-16 h-16 rounded-full bg-indigo-100 text-indigo-600 mx-auto">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-8 h-8">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M6.75 3v2.25M17.25 3v2.25M3 18.75V7.5a2.25 2.25 0 0 1 2.25-2.25h13.5A2.25 2.25 0 0 1 21 7.5v11.25A2.25 2.25 0 0 1 18.75 21H5.25A2.25 2.25 0 0 1 3 18.75Z" />
+                            </svg>
+                        </div>
                         <p class="text-sm font-semibold text-slate-500 uppercase">설립일</p>
-                        <p class="text-2xl font-bold text-slate-800 mt-2">2016년 9월 8일</p>
+                        <p class="text-xl font-bold text-slate-800 mt-2">2016년 9월 8일</p>
                     </div>
-                    <div class="bg-slate-100 p-8 rounded-lg">
+                    <div class="bg-white p-8 rounded-xl shadow-lg hover:shadow-xl hover:-translate-y-2 transition-all duration-300 transform">
+                        <div class="flex justify-center items-center mb-4 w-16 h-16 rounded-full bg-pink-100 text-pink-600 mx-auto">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-8 h-8">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M15 19.128a9.38 9.38 0 0 0 2.625.372 9.337 9.337 0 0 0 4.121-1.262c-.528-1.76-3.132-3.132-5.75-3.132-1.226 0-2.308.28-3.22.754-1.428.473-2.549 1.25-3.415 2.253a9.337 9.337 0 0 0 4.121 1.262ZM12 12a3.75 3.75 0 1 0 0-7.5 3.75 3.75 0 0 0 0 7.5Z" />
+                            </svg>
+                        </div>
                         <p class="text-sm font-semibold text-slate-500 uppercase">임직원수</p>
-                        <p class="text-2xl font-bold text-slate-800 mt-2">45명</p>
+                        <p class="text-xl font-bold text-slate-800 mt-2">45명</p>
                     </div>
                 </div>
 

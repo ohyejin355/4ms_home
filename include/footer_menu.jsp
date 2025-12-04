@@ -51,7 +51,9 @@
                <div class="mt-8 p-6 bg-slate-900 text-slate-400 rounded-xl text-sm">
                    <p class="mb-2"><strong class="text-white">주식회사 포엠에스 (4MS)</strong></p>
                    <p>대표이사: 나연채 | 설립일: 2016.09.08</p>
-                   <p>본사: 서울특별시 ... (주소 업데이트 필요)</p>
+                   <p>본사: 서울특별시 영등포구 경인로 775, 2동 509호</p>
+                   <br/>
+                   <p>Tel: 02-6954-1662 | Fax: 02-6954-1663</p>
                </div>
             </div>
         </div>

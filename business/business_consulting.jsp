@@ -10,10 +10,14 @@
 
     <main>
         <div class="relative pt-16 md:pt-20">
-            <div class="sub_visual_box" align="center" style="background-image: url(/imgae/sub/sub_visual_img_bg.png);">
-                <% request.setAttribute("pageId", "consulting"); %>
-                <%@include file="/include/sub_business_menu.jsp"%>
+            <div class="relative py-24 md:py-32 bg-cover bg-center" style="background-image: url(/imgae/sub/sub_visual_img_bg.png);">
+                <div class="absolute inset-0 bg-slate-900 opacity-60"></div>
+                <div class="relative max-w-7xl mx-auto px-6 lg:px-8 text-center">
+                    <h1 class="text-3xl md:text-4xl font-black text-white">사업영역</h1>
+                </div>
             </div>
+            <% request.setAttribute("pageId", "consulting"); %>
+            <%@include file="/include/sub_business_menu.jsp"%>
         </div>
 
         <section class="py-16 md:py-24">
@@ -24,8 +28,9 @@
                 </div>
 
                 <div class="bg-slate-100 text-left p-12 rounded-lg mb-16 border-l-4 border-teal-600">
-                    <p class="text-xl md:text-2xl font-semibold text-slate-700 leading-relaxed">
-                        컨설팅 사업은 고객이 필요한 주요 시스템을 안정적으로 개발 및 운영할 수 있도록 현실적인 해결방안을 제시하고 맞춤형 시스템을 제공하는 전문서비스입니다.
+                    <p class="text-xl md:text-2xl font-semibold text-slate-700 leading-relaxed whitespace-pre-line">
+                        컨설팅 사업은 고객이 필요한 주요 시스템을 안정적으로 개발 및 운영할 수 있도록 현실적인 해결방안을
+                        제시하고 맞춤형 시스템을 제공하는 전문서비스입니다.
                     </p>
                 </div>
 
