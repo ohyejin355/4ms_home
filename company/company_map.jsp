@@ -43,7 +43,7 @@
                 <div>
                     <!-- * Daum 지도 - 지도퍼가기 -->
                     <!-- 1. 지도 노드 -->
-                    <div id="daumRoughmapContainer1532579551904" class="root_daum_roughmap root_daum_roughmap_landing" style="width: 100%; max-width: 100%;"></div>
+                    <div id="daumRoughmapContainer1532579551904" class="root_daum_roughmap root_daum_roughmap_landing" style="max-width: 100%;"></div>
 
                     <!--
                         2. 설치 스크립트
