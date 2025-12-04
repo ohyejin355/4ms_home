@@ -201,8 +201,6 @@
         </div>
     </section>
 
-    <%@include file="/include/footer_menu.jsp"%>
-
 </body>
 </html></table>
 </div>
