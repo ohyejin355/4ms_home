@@ -1,0 +1,154 @@
+/* General Style Definitions */
+@charset "utf-8";
+
+@import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);
+
+body {background-color: #fff;background-image:url(""); background-repeat:repeat-x; width:100%; margin: 0;}
+body,td,th {font-family: "Nanum Gothic"; font-size: 14px; letter-spacing: 0px; line-height:18px; color:#333;}
+
+
+
+/* div box */
+.div_dc_box {
+	position:absolute;
+	width: 100%;
+	height:100%;
+	z-index:1;
+	background-color: #ff4e00;
+	text-align: center;
+}
+
+.div_wk_box {
+	position:absolute;
+	top:50px;
+	width: 100%;
+	height:px;
+	z-index:2;
+	background-color: #ff4e00;
+	text-align: center;
+	vertical-align: ;
+	font-family: "Nanum Gothic"; 
+}
+
+.div_ba_box {
+	position:absolute;
+	top:130px;
+	width: 100%;
+	height:300px;
+	z-index:2;
+	background-color: #ff4e00;
+	align: center;
+	vertical-align: ;
+	font-family: "Nanum Gothic"; 
+}
+
+.div_btn_box {
+	position:absolute;
+	top:480px;
+	width: 100%;
+	height:200px;
+	z-index:2;
+	background-color: #ff4e00;
+	text-align: center;
+	vertical-align: ;
+	font-family: "Nanum Gothic"; 
+}
+
+.div_ft_box {
+	position:absolute;
+	top:630px;
+	width: 100%;
+	height:50px;
+	z-index:3;
+	background-color: #333333;
+	text-align: center;
+	vertical-align: middle;
+	font-family: "Nanum Gothic"; 
+	font-size: 12px; 
+	letter-spacing: 0px; 
+	line-height:18px; 
+	color:#fff;
+}
+
+
+.div_sb_box {
+	position:absolute;
+	width: 100%;
+	height:100%;
+	z-index:1;
+	background-color: #fff;
+	text-align: center;
+}
+
+.div_sb_wk_box {
+	position:absolute;
+	top:50px;
+	width: 100%;
+	height:px;
+	z-index:2;
+	background-color: transparent;
+	text-align: center;
+	vertical-align: ;
+	font-family: "Nanum Gothic"; 
+}
+
+.div_sb_ba_box {
+	position:absolute;
+	top:150px;
+	width: 100%;
+	height:300px;
+	z-index:2;
+	background-color: transparent;
+	align: center;
+	vertical-align: ;
+	font-family: "Nanum Gothic"; 
+}
+
+.div_sb_add_box {
+	position:absolute;
+	top:420px;
+	left:30px;
+	right:30px;
+	width: ;
+	height:;
+	z-index:2;
+	background-color: transparent;
+	text-align: center;
+	vertical-align: ;
+	font-family: "Nanum Gothic"; 
+}
+
+
+
+/* font */
+.text_ft_12 {font-family: "Nanum Gothic"; 	font-size: 12px; letter-spacing: 0px; line-height:18px; color:#fff;}
+.text_wk_14 {font-family: "Nanum Gothic"; 	font-size: 14px; letter-spacing: 0px; line-height:18px; color:#fff;}
+
+.text_wk_16 {font-family: "Nanum Gothic"; 	font-size: 16px; letter-spacing: 0px; line-height:20px; color:#fff;}
+.text_wk_20 {font-family: "Nanum Gothic"; 	font-size: 20px; letter-spacing: 0px; line-height:26px; color:#fff;}
+.text_wk_22 {font-family: "Nanum Gothic"; 	font-size: 20px; letter-spacing: 0px; line-height:32px; color:#fff;}
+.text_wk_30 {font-family: "Nanum Gothic"; 	font-size: 30px; letter-spacing: 0px; line-height:40px; color:#fff;}
+
+.text_sb_wk_16 {font-family: "Nanum Gothic"; 	font-size: 14px; letter-spacing: 0px; line-height:24px; color:#000;}
+.text_sb_add_16 {font-family: "Nanum Gothic"; 	font-size: 14px; letter-spacing: 0px; line-height:24px; color:#000;background-color: #eeeeee; border:1px solid #e3e3e3; padding:10px; text-align: center; vertical-align: middle; }
+
+/* btn */
+.btn_con {
+    background-color: #333; /* Green */
+    border: 0px solid #000;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: hand;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+.btn_con:not(:last-child) {
+    border-right: none; /* Prevent double borders */
+}
+.btn_con:hover {
+    background-color: #000;
+}

@@ -1,0 +1,94 @@
+body {
+            font-family: 'Open Sans', sans-serif;
+            color: #334155; /* Slate-700 */
+        }
+        h1, h2, h3, h4, .font-heading {
+            font-family: 'Montserrat', sans-serif;
+        }
+
+        /* 핵심 컬러: Teal (청록) - 대비 향상 */
+        .text-primary { color: #115e59; } /* Teal-800 */
+        .bg-primary { background-color: #0f766e; } /* Teal-700 */
+        .hover-bg-primary:hover { background-color: #115e59; } /* Teal-800 */
+
+        /* 히어로 섹션 배경 */
+        .hero-bg {
+            background-image: url('https://images.unsplash.com/photo-1518770660439-4636190af475?q=80&w=2070&auto=format&fit=crop');
+            background-size: cover;
+            background-position: center;
+        }
+        
+        /* PC에서만 패럴럭스 효과 적용 (모바일 성능 최적화) */
+        @media (min-width: 768px) {
+            .hero-bg {
+                background-attachment: fixed; 
+            }
+        }
+
+        /* 글래스모피즘 효과 */
+        .glass-effect {
+            background: rgba(255, 255, 255, 0.9);
+            backdrop-filter: blur(10px);
+            border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+        }
+
+        /* 그라데이션 오버레이 */
+        .gradient-overlay {
+            background: linear-gradient(to right, rgba(15, 23, 42, 0.9), rgba(15, 23, 42, 0.4));
+        }
+
+        /* 모바일 메뉴 애니메이션 */
+        #mobile-menu {
+            transition: max-height 0.3s ease-in-out, opacity 0.3s ease-in-out;
+            max-height: 0;
+            opacity: 0;
+            overflow: hidden;
+        }
+        #mobile-menu.open {
+            max-height: 400px; /* 메뉴 높이에 따라 조절 */
+            opacity: 1;
+        }
+
+        /* 부드러운 스크롤 */
+        html { scroll-behavior: smooth; }
+
+/* Back to Top Button */
+.back-to-top-btn {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    background-color: #0f766e; /* bg-primary, Teal-700 */
+    color: white;
+    width: 48px;
+    height: 48px;
+    border-radius: 9999px; /* rounded-full */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s, visibility 0.3s, background-color 0.3s, transform 0.3s;
+    z-index: 50;
+    box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+}
+
+.back-to-top-btn:hover {
+    background-color: #115e59; /* Teal-800 */
+    transform: translateY(-4px);
+}
+
+.back-to-top-btn.show {
+    opacity: 1;
+    visibility: visible;
+}
+
+/* General link styling in content */
+section p a {
+    color: #0d9488; /* Teal-600 */
+    text-decoration: underline;
+    transition: color 0.3s;
+}
+
+section p a:hover {
+    color: #115e59; /* Teal-800 */
+}
