@@ -69,10 +69,13 @@
                 <div class="border-t border-slate-200 pt-16 mb-16">
                     <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
                         <div>
-                            <p class="text-slate-600 leading-relaxed">
+                            <p class="text-slate-600 leading-relaxed whitespace-pre-line">
                                 주식회사 포엠에스는 2016년에 설립되어 다양한 업무분야의 전문가들로 구성된 기업입니다. <br><br>
-                                '사람중심'을 창업철학으로 주식회사 포엠에스는 급변하는 IT기술 및 인프라 환경에 안정적인 서비스를 제공할 수 있도록 신기술 개발에 힘쓰고 있으며, 다양한 채널의 파트너사와의 연계로 IT분야에 중심이 되도록 임직원 모두 노력하고 있습니다.<br><br>
-                                고객 업무환경에 맞춤형 서비스를 제공하고 만족도를 높이기 위하여 꾸준히 노력하는 IT전문 기업으로 끊임 없이 행보를 이어갈 전망입니다.
+                                '사람중심'을 창업철학으로 주식회사 포엠에스는 급변하는 IT기술 및 인프라 환경에 안정적인 서비스를 
+                                제공할 수 있도록 신기술 개발에 힘쓰고 있으며, 다양한 채널의 파트너사와의 연계로 IT분야에 중심이 
+                                되도록 임직원 모두 노력하고 있습니다.<br><br>
+                                고객 업무환경에 맞춤형 서비스를 제공하고 만족도를 높이기 위하여 꾸준히 노력하는 IT전문 기업으로 
+                                끊임 없이 행보를 이어갈 전망입니다.
                             </p>
                         </div>
                         <img src="/imgae/sub/company_01_01.jpg" alt="overview 이미지" class="w-full h-[200px] rounded-lg shadow-xl hover:shadow-2xl transition-shadow duration-300">
@@ -84,9 +87,10 @@
                         <img src="/imgae/sub/company_01_02.jpg" alt="VISION 이미지" class="w-full h-[200px] rounded-lg shadow-xl hover:shadow-2xl transition-shadow duration-300 md:order-last">
                         <div>
                             <h3 class="text-2xl font-bold text-slate-900 mb-4">VISION</h3>
-                            <p class="text-slate-600 leading-relaxed">
+                            <p class="text-slate-600 leading-relaxed whitespace-pre-line">
                                 인재와 기술을 바탕으로 최적의 IT서비스를 실천하여 공동의 발전과 번영을 추구합니다.<br><br> 
-                                다 년간 개발 업무를 통해 축적된 노하우를 바탕으로 IT 전문기업으로써의 발판을 마련하고 동종 기업의 선두 업체로 자리매김 할 수 있도록 전문 인력을 구성하여 국내외 기술발전을 위해 노력하고 있습니다.<br><br>
+                                다 년간 개발 업무를 통해 축적된 노하우를 바탕으로 IT 전문기업으로써의 발판을 마련하고 동종 기업의 
+                                선두 업체로 자리매김 할 수 있도록 전문 인력을 구성하여 국내외 기술발전을 위해 노력하고 있습니다.<br><br>
                                 앞으로도 끊임없는 신기술 연구개발과 기술혁신으로 빠르게 변화하는 업계의 환경과 기술력 향상에 앞서 대응하며 일류의 기업으로 거듭날 것입니다.
                             </p>
                         </div>

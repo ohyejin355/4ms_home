@@ -58,10 +58,11 @@
                 <div class="order-2 lg:order-2 mt-8 lg:mt-0">
                     <h2 class="text-xs md:text-sm font-bold text-primary uppercase tracking-widest mb-2">Who We Are</h2>
                     <h3 class="text-3xl md:text-4xl font-black text-slate-900 mb-6">미래를 창조하는<br>주식회사 포엠에스</h3>
-                    <p class="text-slate-600 mb-6 leading-relaxed text-sm md:text-base">
-                        포엠에스는 **'사람 중심'**의 기업 철학을 바탕으로 설립되었습니다. 급변하는 IT 인프라 환경 속에서 고객에게 안정적이고 최적화된 서비스를 제공하기 위해 끊임없이 연구합니다.
+                    <p class="text-slate-600 mb-6 leading-relaxed text-sm md:text-base whitespace-pre-line">
+                        포엠에스는 **'사람 중심'**의 기업 철학을 바탕으로 설립되었습니다. 급변하는 IT 인프라 환경 속에서 고객에게 안정적이고 최적화된 서비스를 제공하기 위해 끊임없이 
+                        연구합니다.
                     </p>
-                    <p class="text-slate-600 mb-8 leading-relaxed text-sm md:text-base">
+                    <p class="text-slate-600 mb-8 leading-relaxed text-sm md:text-base whitespace-pre-line">
                         우리는 인재와 기술을 바탕으로 공동의 발전과 번영을 추구하며, 고객이 가장 신뢰할 수 있는 파트너가 되기 위해 전 임직원이 역량을 집중하고 있습니다.
                     </p>
 
@@ -118,7 +119,8 @@
                             <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4"></path></svg>
                         </div>
                         <h4 class="text-xl md:text-2xl font-bold mb-3">System Dev.</h4>
-                        <p class="text-slate-300 text-sm">정보시스템 진단, 설계 및 최적의 시스템 구축을 통한 경쟁력 강화</p>
+                        <p class="text-slate-300 text-sm whitespace-pre-line">정보시스템 진단, 설계 및 최적의 시스템 구축을 통한
+                        경쟁력 강화</p>
                     </div>
                 </div>
 
@@ -188,8 +190,10 @@
                             <h4 class="text-2xl md:text-3xl font-bold text-white">SenseHub</h4>
                             <span class="bg-slate-800 border border-slate-700 text-orange-400 text-xs font-bold px-3 py-1 rounded-full">Smart Farm</span>
                         </div>
-                        <p class="text-slate-400 mb-8 leading-relaxed text-sm md:text-base">
-                            한우/낙농의 생산성을 극대화하는 **발정탐지기**입니다. 가축의 행동 데이터를 24시간 분석하여 건강 관리와 번식 효율을 획기적으로 개선합니다.
+                        <p class="text-slate-400 mb-8 leading-relaxed text-sm md:text-base whitespace-pre-line">
+                            한우/낙농의 생산성을 극대화하는 **발정탐지기**입니다. 
+                            가축의 행동데이터를 24시간 분석하여 건강 관리와 번식 효율을 획기적
+                            으로 개선합니다.
                         </p>
                         <ul class="space-y-3 text-slate-300 border-t border-slate-800 pt-6 text-sm md:text-base">
                             <li class="flex items-center"><span class="w-2 h-2 bg-orange-500 rounded-full mr-3"></span>24시간 실시간 정밀 모니터링</li>
