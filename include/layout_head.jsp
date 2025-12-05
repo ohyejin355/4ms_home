@@ -1,4 +1,5 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
+<html lang="ko" xmlns:th="http://www.thymeleaf.org">
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>4MS | Future Technology Partner</title>
@@ -6,3 +7,4 @@
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;700;900&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
 <link href="/able/css/style.css" rel="stylesheet">
 <link href="/css/comm.css" rel="stylesheet">
+<link th:href="@{/css/main.css}" rel="stylesheet">

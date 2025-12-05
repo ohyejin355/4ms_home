@@ -1,6 +1,9 @@
 /* General Style Definitions */
 @charset "utf-8";
 
+/* Tailwind CSS v4 기능 사용을 위한 설정 */
+@import "tailwindcss";
+
 /* 나눔폰트 적용하기 */
 @font-face{
 	font-family:"NanumGothic";
