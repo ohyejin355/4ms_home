@@ -58,7 +58,7 @@
                                 <p class="text-sm text-slate-600 whitespace-pre-line">Order, 선적, 통관, 입고, 재고, 출고 의 업무를 처리</p>
                             </div>
                         </div>
-                        <img src="/imgae/sub/business_04_01.gif" alt="logo 이미지" class="mx-auto mb-8"/>
+                        <img src="/imgae/sub/business_04_01.png" alt="logo 이미지" class="mx-auto mb-8"/>
                         <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
                             <div class="bg-slate-200 p-6 rounded-lg text-center font-semibold">계약관리</div>
                             <div class="bg-slate-200 p-6 rounded-lg text-center font-semibold">영업관리</div>
@@ -84,7 +84,8 @@
                              <div class="bg-white p-6 rounded-lg shadow">대리점의 도선예보 신청서에 의한 모든 작업처리를 일원화</div>
                              <div class="bg-white p-6 rounded-lg shadow">항만의 특성 및 도선구간의 특성에 따라 유연한 도선 배정</div>
                         </div>
-                        <img src="/imgae/sub/business_04_03.gif" alt="도선시스템 흐름도" class="mx-auto">
+                        <img src="/imgae/sub/business_04_04.png" alt="화살표" class="m-auto">
+                        <img src="/imgae/sub/business_04_03.png" alt="도선시스템 흐름도" class="mx-auto">
                     </div>
 
                     <div>
@@ -93,7 +94,7 @@
                             FarmPlus는 여러 사양가들의 젖소 개체번식관리, 검정관리, 분석관리 및 경영분석까지 모든 자료를 데이터베이스로 통합하여 체계적인 관리를 할 수 있는 “종합낙농전산시스템”입니다.
                         </p>
                         <div class="flex flex-col md:flex-row gap-8">
-                            <div class="w-full md:w-1/2">
+                            <div class="w-full md:w-1/2 h-full">
                                 <div class="mb-8">
                                     <h4 class="font-bold border-b pb-2 mb-4">주요기능</h4>
                                     <ul class="list-disc list-inside space-y-2">
@@ -115,8 +116,8 @@
                                     </ul>
                                 </div>
                             </div>
-                            <div class="w-full md:w-1/2">
-                                <img src="/imgae/sub/business_04_01.jpg" alt="FARMPLUS 이미지" class="rounded-lg shadow-md">
+                            <div class="w-full md:w-1/2 h-400">
+                                <img src="/imgae/sub/business_04_02.png" alt="FARMPLUS 이미지" class="rounded-lg shadow-md h-full">
                             </div>
                         </div>
                     </div>
