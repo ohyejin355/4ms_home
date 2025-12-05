@@ -39,78 +39,90 @@
                     <a href="/project/project_info_2016.jsp" class="px-4 py-2 bg-slate-200 text-slate-700 rounded-md hover:bg-slate-300">2016년</a>
                 </div>
 
-                <div class="flex">
-                    <div class="w-1/6 text-2xl font-bold text-slate-800">2023</div>
-                    <div class="w-5/6 border-l-2 border-slate-200 pl-8">
-                        <table class="w-full text-left">
-                            <tbody class="divide-y divide-slate-200">
-                                <tr class="divide-x divide-slate-200">
-                                    <td class="py-2 px-4 w-1/6">2023.12</td>
-                                    <td class="py-2 px-4 w-2/6">㈜엘지씨엔에스</td>
-                                    <td class="py-2 px-4 w-3/6">농협은행IT본부 NH농협카드 통합 디지털 플랫폼 구축</td>
-                                </tr>
-                                <tr class="divide-x divide-slate-200">
-                                    <td class="py-2 px-4">2023.09</td>
-                                    <td class="py-2 px-4">㈜농협정보시스템</td>
-                                    <td class="py-2 px-4">농협중앙회 2023년 IT경영혁신국 도급인력 운영</td>
-                                </tr>
-                                <tr class="divide-x divide-slate-200">
-                                    <td class="py-2 px-4">2023.09</td>
-                                    <td class="py-2 px-4">㈜신세계아이앤씨</td>
-                                    <td class="py-2 px-4">[신세계푸드] 푸딩오피스 기능개선</td>
-                                </tr>
-                                <tr class="divide-x divide-slate-200">
-                                    <td class="py-2 px-4">2023.09</td>
-                                    <td class="py-2 px-4">㈜신세계아이앤씨</td>
-                                    <td class="py-2 px-4">[신세계라이브쇼핑] 배송정책 개선 프로젝트</td>
-                                </tr>
-                                <tr class="divide-x divide-slate-200">
-                                    <td class="py-2 px-4">2023.09</td>
-                                    <td class="py-2 px-4">㈜농협정보시스템</td>
-                                    <td class="py-2 px-4">(공통)2023년 디지털금융 도급인력 운영</td>
-                                </tr>
-                                <tr class="divide-x divide-slate-200">
-                                    <td class="py-2 px-4">2023.08</td>
-                                    <td class="py-2 px-4">SK㈜</td>
-                                    <td class="py-2 px-4">NH농협(은행) 디지털금융 플랫폼 전환(전자금융)</td>
-                                </tr>
-                                <tr class="divide-x divide-slate-200">
-                                    <td class="py-2 px-4">2023.06</td>
-                                    <td class="py-2 px-4">㈜신세계아이앤씨</td>
-                                    <td class="py-2 px-4">23년도 신세계라이브쇼핑 운영시스템 개선(하반기)</td>
-                                </tr>
-                                <tr class="divide-x divide-slate-200">
-                                    <td class="py-2 px-4">2023.03</td>
-                                    <td class="py-2 px-4">㈜딥브레인에이아이</td>
-                                    <td class="py-2 px-4">딥브레인에이아이 내부 프로젝트</td>
-                                </tr>
-                                <tr class="divide-x divide-slate-200">
-                                    <td class="py-2 px-4">2023.02</td>
-                                    <td class="py-2 px-4">㈜신세계아이앤씨</td>
-                                    <td class="py-2 px-4">셀픽시스템 고도화</td>
-                                </tr>
-                                <tr class="divide-x divide-slate-200">
-                                    <td class="py-2 px-4">2023.01</td>
-                                    <td class="py-2 px-4">볼보그룹코리아</td>
-                                    <td class="py-2 px-4">볼보그룹코리아(주)-영업관리시스템(TSM(SAS)) 유지보수</td>
-                                </tr>
-                                <tr class="divide-x divide-slate-200">
-                                    <td class="py-2 px-4">2023.01</td>
-                                    <td class="py-2 px-4">볼보그룹코리아</td>
-                                    <td class="py-2 px-4">볼보그룹코리아(주)-콜센터 관리시스템 유지보수</td>
-                                </tr>
-                                <tr class="divide-x divide-slate-200">
-                                    <td class="py-2 px-4">2023.01</td>
-                                    <td class="py-2 px-4">㈜농협정보시스템</td>
-                                    <td class="py-2 px-4">2023년도 IT디지털정보단 도급인력 운영</td>
-                                </tr>
-                                <tr class="divide-x divide-slate-200">
-                                    <td class="py-2 px-4">2023.01</td>
-                                    <td class="py-2 px-4">㈜농협정보시스템</td>
-                                    <td class="py-2 px-4">2023년도 IT디지털정보단 도급인력 운영 용역(도급)</td>
-                                </tr>
-                            </tbody>
-                        </table>
+                <div class="md:flex">
+                    <div class="hidden md:block w-1/6 text-2xl font-bold text-slate-800">2023</div>
+                    <div class="w-full md:w-5/6 md:border-l-2 md:border-slate-200 md:pl-8">
+                        <div class="space-y-6">
+                            
+                            <div class="md:grid md:grid-cols-12 gap-4 items-center border-b border-slate-200 pb-4">
+                                <div class="md:col-span-2 text-sm font-medium text-slate-500">2023.12</div>
+                                <div class="md:col-span-4 font-bold text-slate-800 text-lg md:text-base">㈜엘지씨엔에스</div>
+                                <div class="md:col-span-6 text-slate-700">농협은행IT본부 NH농협카드 통합 디지털 플랫폼 구축</div>
+                            </div>
+                        
+                            <div class="md:grid md:grid-cols-12 gap-4 items-center border-b border-slate-200 pb-4">
+                                <div class="md:col-span-2 text-sm font-medium text-slate-500">2023.09</div>
+                                <div class="md:col-span-4 font-bold text-slate-800 text-lg md:text-base">㈜농협정보시스템</div>
+                                <div class="md:col-span-6 text-slate-700">농협중앙회 2023년 IT경영혁신국 도급인력 운영</div>
+                            </div>
+                        
+                            <div class="md:grid md:grid-cols-12 gap-4 items-center border-b border-slate-200 pb-4">
+                                <div class="md:col-span-2 text-sm font-medium text-slate-500">2023.09</div>
+                                <div class="md:col-span-4 font-bold text-slate-800 text-lg md:text-base">㈜신세계아이앤씨</div>
+                                <div class="md:col-span-6 text-slate-700">[신세계푸드] 푸딩오피스 기능개선</div>
+                            </div>
+                        
+                            <div class="md:grid md:grid-cols-12 gap-4 items-center border-b border-slate-200 pb-4">
+                                <div class="md:col-span-2 text-sm font-medium text-slate-500">2023.09</div>
+                                <div class="md:col-span-4 font-bold text-slate-800 text-lg md:text-base">㈜신세계아이앤씨</div>
+                                <div class="md:col-span-6 text-slate-700">[신세계라이브쇼핑] 배송정책 개선 프로젝트</div>
+                            </div>
+                        
+                            <div class="md:grid md:grid-cols-12 gap-4 items-center border-b border-slate-200 pb-4">
+                                <div class="md:col-span-2 text-sm font-medium text-slate-500">2023.09</div>
+                                <div class="md:col-span-4 font-bold text-slate-800 text-lg md:text-base">㈜농협정보시스템</div>
+                                <div class="md:col-span-6 text-slate-700">(공통)2023년 디지털금융 도급인력 운영</div>
+                            </div>
+                        
+                            <div class="md:grid md:grid-cols-12 gap-4 items-center border-b border-slate-200 pb-4">
+                                <div class="md:col-span-2 text-sm font-medium text-slate-500">2023.08</div>
+                                <div class="md:col-span-4 font-bold text-slate-800 text-lg md:text-base">SK㈜</div>
+                                <div class="md:col-span-6 text-slate-700">NH농협(은행) 디지털금융 플랫폼 전환(전자금융)</div>
+                            </div>
+                        
+                            <div class="md:grid md:grid-cols-12 gap-4 items-center border-b border-slate-200 pb-4">
+                                <div class="md:col-span-2 text-sm font-medium text-slate-500">2023.06</div>
+                                <div class="md:col-span-4 font-bold text-slate-800 text-lg md:text-base">㈜신세계아이앤씨</div>
+                                <div class="md:col-span-6 text-slate-700">23년도 신세계라이브쇼핑 운영시스템 개선(하반기)</div>
+                            </div>
+                        
+                            <div class="md:grid md:grid-cols-12 gap-4 items-center border-b border-slate-200 pb-4">
+                                <div class="md:col-span-2 text-sm font-medium text-slate-500">2023.03</div>
+                                <div class="md:col-span-4 font-bold text-slate-800 text-lg md:text-base">㈜딥브레인에이아이</div>
+                                <div class="md:col-span-6 text-slate-700">딥브레인에이아이 내부 프로젝트</div>
+                            </div>
+                        
+                            <div class="md:grid md:grid-cols-12 gap-4 items-center border-b border-slate-200 pb-4">
+                                <div class="md:col-span-2 text-sm font-medium text-slate-500">2023.02</div>
+                                <div class="md:col-span-4 font-bold text-slate-800 text-lg md:text-base">㈜신세계아이앤씨</div>
+                                <div class="md:col-span-6 text-slate-700">셀픽시스템 고도화</div>
+                            </div>
+                        
+                            <div class="md:grid md:grid-cols-12 gap-4 items-center border-b border-slate-200 pb-4">
+                                <div class="md:col-span-2 text-sm font-medium text-slate-500">2023.01</div>
+                                <div class="md:col-span-4 font-bold text-slate-800 text-lg md:text-base">볼보그룹코리아</div>
+                                <div class="md:col-span-6 text-slate-700">볼보그룹코리아(주)-영업관리시스템(TSM(SAS)) 유지보수</div>
+                            </div>
+                        
+                            <div class="md:grid md:grid-cols-12 gap-4 items-center border-b border-slate-200 pb-4">
+                                <div class="md:col-span-2 text-sm font-medium text-slate-500">2023.01</div>
+                                <div class="md:col-span-4 font-bold text-slate-800 text-lg md:text-base">볼보그룹코리아</div>
+                                <div class="md:col-span-6 text-slate-700">볼보그룹코리아(주)-콜센터 관리시스템 유지보수</div>
+                            </div>
+                        
+                            <div class="md:grid md:grid-cols-12 gap-4 items-center border-b border-slate-200 pb-4">
+                                <div class="md:col-span-2 text-sm font-medium text-slate-500">2023.01</div>
+                                <div class="md:col-span-4 font-bold text-slate-800 text-lg md:text-base">㈜농협정보시스템</div>
+                                <div class="md:col-span-6 text-slate-700">2023년도 IT디지털정보단 도급인력 운영</div>
+                            </div>
+                        
+                            <div class="md:grid md:grid-cols-12 gap-4 items-center pb-4">
+                                <div class="md:col-span-2 text-sm font-medium text-slate-500">2023.01</div>
+                                <div class="md:col-span-4 font-bold text-slate-800 text-lg md:text-base">㈜농협정보시스템</div>
+                                <div class="md:col-span-6 text-slate-700">2023년도 IT디지털정보단 도급인력 운영 용역(도급)</div>
+                            </div>
+
+                        </div>
                     </div>
                 </div>
             </div>

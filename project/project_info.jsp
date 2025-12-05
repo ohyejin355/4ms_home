@@ -39,118 +39,138 @@
                     <a href="/project/project_info_2016.jsp" class="px-4 py-2 bg-slate-200 text-slate-700 rounded-md hover:bg-slate-300">2016년</a>
                 </div>
 
-                <div class="flex">
-                    <div class="w-1/6 text-2xl font-bold text-slate-800">2025</div>
-                    <div class="w-5/6 border-l-2 border-slate-200 pl-8">
-                        <table class="w-full text-left">
-                            <tbody class="divide-y divide-slate-200">
-                                <tr class="divide-x divide-slate-200">
-                                    <td class="py-2 px-4 w-1/6">2025.09</td>
-                                    <td class="py-2 px-4 w-2/6">밀크파워텍</td>
-                                    <td class="py-2 px-4 w-3/6">센스허브(SennseHub) 넥태그 납품</td>
-                                </tr>
-                                <tr class="divide-x divide-slate-200">
-                                    <td class="py-2 px-4">2025.09</td>
-                                    <td class="py-2 px-4">㈜농협정보시스템</td>
-                                    <td class="py-2 px-4">농협중앙회 2025년 IT경영혁신국 도급인력 운영</td>
-                                </tr>
-                                 <tr class="divide-x divide-slate-200">
-                                    <td class="py-2 px-4">2025.09</td>
-                                    <td class="py-2 px-4">㈜데이터쿡</td>
-                                    <td class="py-2 px-4">2025년 종합교육연수원 홈페이지 유지관리 및 운영지원</td>
-                                </tr>
-                                <tr class="divide-x divide-slate-200">
-                                    <td class="py-2 px-4">2025.09</td>
-                                    <td class="py-2 px-4">㈜신세계아이앤씨</td>
-                                    <td class="py-2 px-4">[신세계백화점] 차세대 시스템 고도화(계약관리임대정산 고도화)</td>
-                                </tr>
-                                <tr class="divide-x divide-slate-200">
-                                    <td class="py-2 px-4">2025.08</td>
-                                    <td class="py-2 px-4">㈜핸드위치</td>
-                                    <td class="py-2 px-4">NH농협은행 그룹데이터 통합·활용 인프라 구축_포탈</td>
-                                </tr>
-                                <tr class="divide-x divide-slate-200">
-                                    <td class="py-2 px-4">2025.08</td>
-                                    <td class="py-2 px-4">㈜유엔아워스</td>
-                                    <td class="py-2 px-4">NH멤버스 오픈API 플랫폼 구축</td>
-                                </tr>
-                                <tr class="divide-x divide-slate-200">
-                                    <td class="py-2 px-4">2025.08</td>
-                                    <td class="py-2 px-4">㈜핑거</td>
-                                    <td class="py-2 px-4">농협 (은행)2025년도 NH임베디드 기업뱅킹 플랫폼</td>
-                                </tr>
-                                <tr class="divide-x divide-slate-200">
-                                    <td class="py-2 px-4">2025.07</td>
-                                    <td class="py-2 px-4">교보디티에스주식회사</td>
-                                    <td class="py-2 px-4">NH농협생명 농.축협 맞춤형 AI가입설계 시스템 구축</td>
-                                </tr>
-                                <tr class="divide-x divide-slate-200">
-                                    <td class="py-2 px-4">2025.06</td>
-                                    <td class="py-2 px-4">㈜신세계아이앤씨</td>
-                                    <td class="py-2 px-4">신세계라이브쇼핑 모바일/PC 부분 취소 프로젝트</td>
-                                </tr>
-                                <tr class="divide-x divide-slate-200">
-                                    <td class="py-2 px-4">2025.06</td>
-                                    <td class="py-2 px-4">㈜농협정보시스템</td>
-                                    <td class="py-2 px-4">(중앙회)디지털 영농특화 플랫폼 고도화(오늘농사4단계)</td>
-                                </tr>
-                                <tr class="divide-x divide-slate-200">
-                                    <td class="py-2 px-4">2025.04</td>
-                                    <td class="py-2 px-4">㈜아이티센엔텍</td>
-                                    <td class="py-2 px-4">IBK기업은행 카드앱 상시운영반 운영업무 위탁 계약</td>
-                                </tr>
-                                <tr class="divide-x divide-slate-200">
-                                    <td class="py-2 px-4">2025.03</td>
-                                    <td class="py-2 px-4">㈜신세계아이앤씨</td>
-                                    <td class="py-2 px-4">[신세계라이브쇼핑] AI기반 상품정보 고도화 프로젝트</td>
-                                </tr>
-                                <tr class="divide-x divide-slate-200">
-                                    <td class="py-2 px-4">2025.02</td>
-                                    <td class="py-2 px-4">㈜펜타에스</td>
-                                    <td class="py-2 px-4">우리은행 IT자산관리시스템 구축 2단계 프로젝트</td>
-                                </tr>
-                                <tr class="divide-x divide-slate-200">
-                                    <td class="py-2 px-4">2025.01</td>
-                                    <td class="py-2 px-4">㈜신세계아이앤씨</td>
-                                    <td class="py-2 px-4">신세계라이브쇼핑 운영시스템 개선</td>
-                                </tr>
-                                <tr class="divide-x divide-slate-200">
-                                    <td class="py-2 px-4">2025.01</td>
-                                    <td class="py-2 px-4">㈜농협정보시스템</td>
-                                    <td class="py-2 px-4">농협중앙회 업무 위탁 운영 인력풀 활용 계약(자금)</td>
-                                </tr>
-                                <tr class="divide-x divide-slate-200">
-                                    <td class="py-2 px-4">2025.01</td>
-                                    <td class="py-2 px-4">㈜농협정보시스템</td>
-                                    <td class="py-2 px-4">소비유통시스템 IT업무 위탁계약서(스마트워크)</td>
-                                </tr>
-                                <tr class="divide-x divide-slate-200">
-                                    <td class="py-2 px-4">2025.01</td>
-                                    <td class="py-2 px-4">㈜농협정보시스템</td>
-                                    <td class="py-2 px-4">소비유통시스템 업무운영 도급계약(2025) (채권,채무,세무)</td>
-                                </tr>
-                                <tr class="divide-x divide-slate-200">
-                                    <td class="py-2 px-4">2025.01</td>
-                                    <td class="py-2 px-4">볼보그룹코리아(주)</td>
-                                    <td class="py-2 px-4">영업관리시스템(TSM(SAS)) 유지보수</td>
-                                </tr>
-                                <tr class="divide-x divide-slate-200">
-                                    <td class="py-2 px-4">2025.01</td>
-                                    <td class="py-2 px-4">볼보그룹코리아(주)</td>
-                                    <td class="py-2 px-4">콜센터 관리시스템 유지보수</td>
-                                </tr>
-                                 <tr class="divide-x divide-slate-200">
-                                    <td class="py-2 px-4">2025.01</td>
-                                    <td class="py-2 px-4">㈜농협정보시스템</td>
-                                    <td class="py-2 px-4">(중앙회) IT디지털정보단 도급인력 운영</td>
-                                </tr>
-                                <tr class="divide-x divide-slate-200">
-                                    <td class="py-2 px-4">2025.01</td>
-                                    <td class="py-2 px-4">㈜농협정보시스템</td>
-                                    <td class="py-2 px-4">디지털금융 및 IT상시개발지원 인력운영(디지털금융)</td>
-                                </tr>
-                            </tbody>
-                        </table>
+                <div class="md:flex">
+                    <div class="hidden md:block w-1/6 text-2xl font-bold text-slate-800">2025</div>
+                    <div class="w-full md:w-5/6 md:border-l-2 md:border-slate-200 md:pl-8">
+                        <div class="space-y-6">
+                            
+                            <div class="md:grid md:grid-cols-12 gap-4 items-center border-b border-slate-200 pb-4">
+                                <div class="md:col-span-2 text-sm font-medium text-slate-500">2025.09</div>
+                                <div class="md:col-span-4 font-bold text-slate-800 text-lg md:text-base">밀크파워텍</div>
+                                <div class="md:col-span-6 text-slate-700">센스허브(SennseHub) 넥태그 납품</div>
+                            </div>
+                        
+                            <div class="md:grid md:grid-cols-12 gap-4 items-center border-b border-slate-200 pb-4">
+                                <div class="md:col-span-2 text-sm font-medium text-slate-500">2025.09</div>
+                                <div class="md:col-span-4 font-bold text-slate-800 text-lg md:text-base">㈜농협정보시스템</div>
+                                <div class="md:col-span-6 text-slate-700">농협중앙회 2025년 IT경영혁신국 도급인력 운영</div>
+                            </div>
+                        
+                            <div class="md:grid md:grid-cols-12 gap-4 items-center border-b border-slate-200 pb-4">
+                                <div class="md:col-span-2 text-sm font-medium text-slate-500">2025.09</div>
+                                <div class="md:col-span-4 font-bold text-slate-800 text-lg md:text-base">㈜데이터쿡</div>
+                                <div class="md:col-span-6 text-slate-700">2025년 종합교육연수원 홈페이지 유지관리 및 운영지원</div>
+                            </div>
+                        
+                            <div class="md:grid md:grid-cols-12 gap-4 items-center border-b border-slate-200 pb-4">
+                                <div class="md:col-span-2 text-sm font-medium text-slate-500">2025.09</div>
+                                <div class="md:col-span-4 font-bold text-slate-800 text-lg md:text-base">㈜신세계아이앤씨</div>
+                                <div class="md:col-span-6 text-slate-700">[신세계백화점] 차세대 시스템 고도화(계약관리임대정산 고도화)</div>
+                            </div>
+                        
+                            <div class="md:grid md:grid-cols-12 gap-4 items-center border-b border-slate-200 pb-4">
+                                <div class="md:col-span-2 text-sm font-medium text-slate-500">2025.08</div>
+                                <div class="md:col-span-4 font-bold text-slate-800 text-lg md:text-base">㈜핸드위치</div>
+                                <div class="md:col-span-6 text-slate-700">NH농협은행 그룹데이터 통합·활용 인프라 구축_포탈</div>
+                            </div>
+                        
+                            <div class="md:grid md:grid-cols-12 gap-4 items-center border-b border-slate-200 pb-4">
+                                <div class="md:col-span-2 text-sm font-medium text-slate-500">2025.08</div>
+                                <div class="md:col-span-4 font-bold text-slate-800 text-lg md:text-base">㈜유엔아워스</div>
+                                <div class="md:col-span-6 text-slate-700">NH멤버스 오픈API 플랫폼 구축</div>
+                            </div>
+                        
+                            <div class="md:grid md:grid-cols-12 gap-4 items-center border-b border-slate-200 pb-4">
+                                <div class="md:col-span-2 text-sm font-medium text-slate-500">2025.08</div>
+                                <div class="md:col-span-4 font-bold text-slate-800 text-lg md:text-base">㈜핑거</div>
+                                <div class="md:col-span-6 text-slate-700">농협 (은행)2025년도 NH임베디드 기업뱅킹 플랫폼</div>
+                            </div>
+                        
+                            <div class="md:grid md:grid-cols-12 gap-4 items-center border-b border-slate-200 pb-4">
+                                <div class="md:col-span-2 text-sm font-medium text-slate-500">2025.07</div>
+                                <div class="md:col-span-4 font-bold text-slate-800 text-lg md:text-base">교보디티에스주식회사</div>
+                                <div class="md:col-span-6 text-slate-700">NH농협생명 농.축협 맞춤형 AI가입설계 시스템 구축</div>
+                            </div>
+                        
+                            <div class="md:grid md:grid-cols-12 gap-4 items-center border-b border-slate-200 pb-4">
+                                <div class="md:col-span-2 text-sm font-medium text-slate-500">2025.06</div>
+                                <div class="md:col-span-4 font-bold text-slate-800 text-lg md:text-base">㈜신세계아이앤씨</div>
+                                <div class="md:col-span-6 text-slate-700">신세계라이브쇼핑 모바일/PC 부분 취소 프로젝트</div>
+                            </div>
+                        
+                            <div class="md:grid md:grid-cols-12 gap-4 items-center border-b border-slate-200 pb-4">
+                                <div class="md:col-span-2 text-sm font-medium text-slate-500">2025.06</div>
+                                <div class="md:col-span-4 font-bold text-slate-800 text-lg md:text-base">㈜농협정보시스템</div>
+                                <div class="md:col-span-6 text-slate-700">(중앙회)디지털 영농특화 플랫폼 고도화(오늘농사4단계)</div>
+                            </div>
+                        
+                            <div class="md:grid md:grid-cols-12 gap-4 items-center border-b border-slate-200 pb-4">
+                                <div class="md:col-span-2 text-sm font-medium text-slate-500">2025.04</div>
+                                <div class="md:col-span-4 font-bold text-slate-800 text-lg md:text-base">㈜아이티센엔텍</div>
+                                <div class="md:col-span-6 text-slate-700">IBK기업은행 카드앱 상시운영반 운영업무 위탁 계약</div>
+                            </div>
+                        
+                            <div class="md:grid md:grid-cols-12 gap-4 items-center border-b border-slate-200 pb-4">
+                                <div class="md:col-span-2 text-sm font-medium text-slate-500">2025.03</div>
+                                <div class="md:col-span-4 font-bold text-slate-800 text-lg md:text-base">㈜신세계아이앤씨</div>
+                                <div class="md:col-span-6 text-slate-700">[신세계라이브쇼핑] AI기반 상품정보 고도화 프로젝트</div>
+                            </div>
+                        
+                            <div class="md:grid md:grid-cols-12 gap-4 items-center border-b border-slate-200 pb-4">
+                                <div class="md:col-span-2 text-sm font-medium text-slate-500">2025.02</div>
+                                <div class="md:col-span-4 font-bold text-slate-800 text-lg md:text-base">㈜펜타에스</div>
+                                <div class="md:col-span-6 text-slate-700">우리은행 IT자산관리시스템 구축 2단계 프로젝트</div>
+                            </div>
+                        
+                            <div class="md:grid md:grid-cols-12 gap-4 items-center border-b border-slate-200 pb-4">
+                                <div class="md:col-span-2 text-sm font-medium text-slate-500">2025.01</div>
+                                <div class="md:col-span-4 font-bold text-slate-800 text-lg md:text-base">㈜신세계아이앤씨</div>
+                                <div class="md:col-span-6 text-slate-700">신세계라이브쇼핑 운영시스템 개선</div>
+                            </div>
+                        
+                            <div class="md:grid md:grid-cols-12 gap-4 items-center border-b border-slate-200 pb-4">
+                                <div class="md:col-span-2 text-sm font-medium text-slate-500">2025.01</div>
+                                <div class="md:col-span-4 font-bold text-slate-800 text-lg md:text-base">㈜농협정보시스템</div>
+                                <div class="md:col-span-6 text-slate-700">농협중앙회 업무 위탁 운영 인력풀 활용 계약(자금)</div>
+                            </div>
+                        
+                            <div class="md:grid md:grid-cols-12 gap-4 items-center border-b border-slate-200 pb-4">
+                                <div class="md:col-span-2 text-sm font-medium text-slate-500">2025.01</div>
+                                <div class="md:col-span-4 font-bold text-slate-800 text-lg md:text-base">㈜농협정보시스템</div>
+                                <div class="md:col-span-6 text-slate-700">소비유통시스템 IT업무 위탁계약서(스마트워크)</div>
+                            </div>
+                        
+                            <div class="md:grid md:grid-cols-12 gap-4 items-center border-b border-slate-200 pb-4">
+                                <div class="md:col-span-2 text-sm font-medium text-slate-500">2025.01</div>
+                                <div class="md:col-span-4 font-bold text-slate-800 text-lg md:text-base">㈜농협정보시스템</div>
+                                <div class="md:col-span-6 text-slate-700">소비유통시스템 업무운영 도급계약(2025) (채권,채무,세무)</div>
+                            </div>
+                        
+                            <div class="md:grid md:grid-cols-12 gap-4 items-center border-b border-slate-200 pb-4">
+                                <div class="md:col-span-2 text-sm font-medium text-slate-500">2025.01</div>
+                                <div class="md:col-span-4 font-bold text-slate-800 text-lg md:text-base">볼보그룹코리아(주)</div>
+                                <div class="md:col-span-6 text-slate-700">영업관리시스템(TSM(SAS)) 유지보수</div>
+                            </div>
+                        
+                            <div class="md:grid md:grid-cols-12 gap-4 items-center border-b border-slate-200 pb-4">
+                                <div class="md:col-span-2 text-sm font-medium text-slate-500">2025.01</div>
+                                <div class="md:col-span-4 font-bold text-slate-800 text-lg md:text-base">볼보그룹코리아(주)</div>
+                                <div class="md:col-span-6 text-slate-700">콜센터 관리시스템 유지보수</div>
+                            </div>
+                        
+                            <div class="md:grid md:grid-cols-12 gap-4 items-center border-b border-slate-200 pb-4">
+                                <div class="md:col-span-2 text-sm font-medium text-slate-500">2025.01</div>
+                                <div class="md:col-span-4 font-bold text-slate-800 text-lg md:text-base">㈜농협정보시스템</div>
+                                <div class="md:col-span-6 text-slate-700">(중앙회) IT디지털정보단 도급인력 운영</div>
+                            </div>
+                        
+                            <div class="md:grid md:grid-cols-12 gap-4 items-center pb-4">
+                                <div class="md:col-span-2 text-sm font-medium text-slate-500">2025.01</div>
+                                <div class="md:col-span-4 font-bold text-slate-800 text-lg md:text-base">㈜농협정보시스템</div>
+                                <div class="md:col-span-6 text-slate-700">디지털금융 및 IT상시개발지원 인력운영(디지털금융)</div>
+                            </div>
+
+                        </div>
                     </div>
                 </div>
             </div>

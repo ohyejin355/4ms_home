@@ -39,143 +39,168 @@
                     <a href="/project/project_info_2016.jsp" class="px-4 py-2 bg-slate-200 text-slate-700 rounded-md hover:bg-slate-300">2016년</a>
                 </div>
 
-                <div class="flex">
-                    <div class="w-1/6 text-2xl font-bold text-slate-800">2021</div>
-                    <div class="w-5/6 border-l-2 border-slate-200 pl-8">
-                        <table class="w-full text-left">
-                            <tbody class="divide-y divide-slate-200">
-                                <tr class="divide-x divide-slate-200">
-                                    <td class="py-2 px-4 w-1/6">2021.12</td>
-                                    <td class="py-2 px-4 w-2/6">㈜제뉴파인</td>
-                                    <td class="py-2 px-4 w-3/6">신한은행 퇴직연금 통합플랫폼 고도화</td>
-                                </tr>
-                                <tr class="divide-x divide-slate-200">
-                                    <td class="py-2 px-4">2021.11</td>
-                                    <td class="py-2 px-4">㈜아스템즈</td>
-                                    <td class="py-2 px-4">[스타벅스] 성과급 시스템화</td>
-                                </tr>
-                                <tr class="divide-x divide-slate-200">
-                                    <td class="py-2 px-4">2021.10</td>
-                                    <td class="py-2 px-4">다음정보기술</td>
-                                    <td class="py-2 px-4">배전자동화통신망 통합관리시스템 구축 WEB GIS 엔진 재개발</td>
-                                </tr>
-                                <tr class="divide-x divide-slate-200">
-                                    <td class="py-2 px-4">2021.09</td>
-                                    <td class="py-2 px-4">㈜신세계아이앤씨</td>
-                                    <td class="py-2 px-4">SELLPICK 샤넬코리아 e-Biz efficiency solution 구축</td>
-                                </tr>
-                                <tr class="divide-x divide-slate-200">
-                                    <td class="py-2 px-4">2021.09</td>
-                                    <td class="py-2 px-4">㈜농협정보시스템</td>
-                                    <td class="py-2 px-4">(공통)2021년 디지털금융 도급인력 운영</td>
-                                </tr>
-                                <tr class="divide-x divide-slate-200">
-                                    <td class="py-2 px-4">2021.08</td>
-                                    <td class="py-2 px-4">㈜핑거</td>
-                                    <td class="py-2 px-4">(공통)2021년 디지털금융 도급인력 운영</td>
-                                </tr>
-                                <tr class="divide-x divide-slate-200">
-                                    <td class="py-2 px-4">2021.07</td>
-                                    <td class="py-2 px-4">㈜농협정보시스템</td>
-                                    <td class="py-2 px-4">농협 경제 스마트워크 시스템 고도화 구축</td>
-                                </tr>
-                                <tr class="divide-x divide-slate-200">
-                                    <td class="py-2 px-4">2021.07</td>
-                                    <td class="py-2 px-4">㈜디리아</td>
-                                    <td class="py-2 px-4">신한은행 THE NEXT시스템 코어디지털 기반 구축 용역계약</td>
-                                </tr>
-                                <tr class="divide-x divide-slate-200">
-                                    <td class="py-2 px-4">2021.07</td>
-                                    <td class="py-2 px-4">㈜아스템즈</td>
-                                    <td class="py-2 px-4">[스타벅스] 온디맨드 고도화(업무시스템)[영업정보]</td>
-                                </tr>
-                                <tr class="divide-x divide-slate-200">
-                                    <td class="py-2 px-4">2021.06</td>
-                                    <td class="py-2 px-4">㈜인젠트</td>
-                                    <td class="py-2 px-4">한국투자저축은행 통합 모바일앱ODS 프로젝트</td>
-                                </tr>
-                                <tr class="divide-x divide-slate-200">
-                                    <td class="py-2 px-4">2021.06</td>
-                                    <td class="py-2 px-4">㈜신세계아이앤씨</td>
-                                    <td class="py-2 px-4">스타벅스 기프티콘 발급 개발</td>
-                                </tr>
-                                <tr class="divide-x divide-slate-200">
-                                    <td class="py-2 px-4">2021.06</td>
-                                    <td class="py-2 px-4">㈜신세계아이앤씨</td>
-                                    <td class="py-2 px-4">[네파] IT Outsourcing ERP유지보수</td>
-                                </tr>
-                                <tr class="divide-x divide-slate-200">
-                                    <td class="py-2 px-4">2021.05</td>
-                                    <td class="py-2 px-4">㈜엔디에스</td>
-                                    <td class="py-2 px-4">공공급식 통합시스템구축(심사관리)</td>
-                                </tr>
-                                <tr class="divide-x divide-slate-200">
-                                    <td class="py-2 px-4">2021.05</td>
-                                    <td class="py-2 px-4">㈜윈위즈</td>
-                                    <td class="py-2 px-4">BGF 경영효율화 프로젝트</td>
-                                </tr>
-                                <tr class="divide-x divide-slate-200">
-                                    <td class="py-2 px-4">2021.05</td>
-                                    <td class="py-2 px-4">㈜핑거</td>
-                                    <td class="py-2 px-4">국민은행_마이데이터_서비스,포탈,대응개발</td>
-                                </tr>
-                                <tr class="divide-x divide-slate-200">
-                                    <td class="py-2 px-4">2021.05</td>
-                                    <td class="py-2 px-4">㈜농협정보시스템</td>
-                                    <td class="py-2 px-4">중앙회 위탁 업무 인력풀 활용 계약 (급여정보시스템 개선)</td>
-                                </tr>
-                                <tr class="divide-x divide-slate-200">
-                                    <td class="py-2 px-4">2021.05</td>
-                                    <td class="py-2 px-4">㈜신세계아이앤씨</td>
-                                    <td class="py-2 px-4">[백화점]VIP라운지 온라인 음료 주문 개발[통합고객시스템 개발]</td>
-                                </tr>
-                                <tr class="divide-x divide-slate-200">
-                                    <td class="py-2 px-4">2021.04</td>
-                                    <td class="py-2 px-4">㈜핑거</td>
-                                    <td class="py-2 px-4">농협은행 올원뱅크 2021 생활금융플랫폼화 개발추진</td>
-                                </tr>
-                                <tr class="divide-x divide-slate-200">
-                                    <td class="py-2 px-4">2021.04</td>
-                                    <td class="py-2 px-4">㈜신세계아이앤씨</td>
-                                    <td class="py-2 px-4">자산 goodMD 고도화</td>
-                                </tr>
-                                <tr class="divide-x divide-slate-200">
-                                    <td class="py-2 px-4">2021.04</td>
-                                    <td class="py-2 px-4">㈜신세계아이앤씨</td>
-                                    <td class="py-2 px-4">JAJU 리뉴얼 CRM 수정 개발</td>
-                                </tr>
-                                <tr class="divide-x divide-slate-200">
-                                    <td class="py-2 px-4">2021.04</td>
-                                    <td class="py-2 px-4">㈜신세계아이앤씨</td>
-                                    <td class="py-2 px-4">신세계프라퍼티 셀픽 추가개발</td>
-                                </tr>
-                                <tr class="divide-x divide-slate-200">
-                                    <td class="py-2 px-4">2021.04</td>
-                                    <td class="py-2 px-4">㈜신세계아이앤씨</td>
-                                    <td class="py-2 px-4">스타일난다 API 인터페이스 개발</td>
-                                </tr>
-                                <tr class="divide-x divide-slate-200">
-                                    <td class="py-2 px-4">2021.04</td>
-                                    <td class="py-2 px-4">㈜신세계아이앤씨</td>
-                                    <td class="py-2 px-4">eCvan 서비스 개선</td>
-                                </tr>
-                                <tr class="divide-x divide-slate-200">
-                                    <td class="py-2 px-4">2021.03</td>
-                                    <td class="py-2 px-4">㈜뱅크웨어글로벌</td>
-                                    <td class="py-2 px-4">농협중앙회 상호금융 마이데이터 플랫폼 구축_PFM 고도화</td>
-                                </tr>
-                                <tr class="divide-x divide-slate-200">
-                                    <td class="py-2 px-4">2021.02</td>
-                                    <td class="py-2 px-4">㈜우리카드</td>
-                                    <td class="py-2 px-4">우리카드 위비멤버스 리뉴얼 구축</td>
-                                </tr>
-                                <tr class="divide-x divide-slate-200">
-                                    <td class="py-2 px-4">2021.01</td>
-                                    <td class="py-2 px-4">㈜농협정보시스템</td>
-                                    <td class="py-2 px-4">금융지주 연결결산시스템 분리 구축</td>
-                                </tr>
-                            </tbody>
-                        </table>
+                <div class="md:flex">
+                    <div class="hidden md:block w-1/6 text-2xl font-bold text-slate-800">2021</div>
+                    <div class="w-full md:w-5/6 md:border-l-2 md:border-slate-200 md:pl-8">
+                        <div class="space-y-6">
+                            
+                            <div class="md:grid md:grid-cols-12 gap-4 items-center border-b border-slate-200 pb-4">
+                                <div class="md:col-span-2 text-sm font-medium text-slate-500">2021.12</div>
+                                <div class="md:col-span-4 font-bold text-slate-800 text-lg md:text-base">㈜제뉴파인</div>
+                                <div class="md:col-span-6 text-slate-700">신한은행 퇴직연금 통합플랫폼 고도화</div>
+                            </div>
+                        
+                            <div class="md:grid md:grid-cols-12 gap-4 items-center border-b border-slate-200 pb-4">
+                                <div class="md:col-span-2 text-sm font-medium text-slate-500">2021.11</div>
+                                <div class="md:col-span-4 font-bold text-slate-800 text-lg md:text-base">㈜아스템즈</div>
+                                <div class="md:col-span-6 text-slate-700">[스타벅스] 성과급 시스템화</div>
+                            </div>
+                        
+                            <div class="md:grid md:grid-cols-12 gap-4 items-center border-b border-slate-200 pb-4">
+                                <div class="md:col-span-2 text-sm font-medium text-slate-500">2021.10</div>
+                                <div class="md:col-span-4 font-bold text-slate-800 text-lg md:text-base">다음정보기술</div>
+                                <div class="md:col-span-6 text-slate-700">배전자동화통신망 통합관리시스템 구축 WEB GIS 엔진 재개발</div>
+                            </div>
+                        
+                            <div class="md:grid md:grid-cols-12 gap-4 items-center border-b border-slate-200 pb-4">
+                                <div class="md:col-span-2 text-sm font-medium text-slate-500">2021.09</div>
+                                <div class="md:col-span-4 font-bold text-slate-800 text-lg md:text-base">㈜신세계아이앤씨</div>
+                                <div class="md:col-span-6 text-slate-700">SELLPICK 샤넬코리아 e-Biz efficiency solution 구축</div>
+                            </div>
+                        
+                            <div class="md:grid md:grid-cols-12 gap-4 items-center border-b border-slate-200 pb-4">
+                                <div class="md:col-span-2 text-sm font-medium text-slate-500">2021.09</div>
+                                <div class="md:col-span-4 font-bold text-slate-800 text-lg md:text-base">㈜농협정보시스템</div>
+                                <div class="md:col-span-6 text-slate-700">(공통)2021년 디지털금융 도급인력 운영</div>
+                            </div>
+                        
+                            <div class="md:grid md:grid-cols-12 gap-4 items-center border-b border-slate-200 pb-4">
+                                <div class="md:col-span-2 text-sm font-medium text-slate-500">2021.08</div>
+                                <div class="md:col-span-4 font-bold text-slate-800 text-lg md:text-base">㈜핑거</div>
+                                <div class="md:col-span-6 text-slate-700">(공통)2021년 디지털금융 도급인력 운영</div>
+                            </div>
+                        
+                            <div class="md:grid md:grid-cols-12 gap-4 items-center border-b border-slate-200 pb-4">
+                                <div class="md:col-span-2 text-sm font-medium text-slate-500">2021.07</div>
+                                <div class="md:col-span-4 font-bold text-slate-800 text-lg md:text-base">㈜농협정보시스템</div>
+                                <div class="md:col-span-6 text-slate-700">농협 경제 스마트워크 시스템 고도화 구축</div>
+                            </div>
+                        
+                            <div class="md:grid md:grid-cols-12 gap-4 items-center border-b border-slate-200 pb-4">
+                                <div class="md:col-span-2 text-sm font-medium text-slate-500">2021.07</div>
+                                <div class="md:col-span-4 font-bold text-slate-800 text-lg md:text-base">㈜디리아</div>
+                                <div class="md:col-span-6 text-slate-700">신한은행 THE NEXT시스템 코어디지털 기반 구축 용역계약</div>
+                            </div>
+                        
+                            <div class="md:grid md:grid-cols-12 gap-4 items-center border-b border-slate-200 pb-4">
+                                <div class="md:col-span-2 text-sm font-medium text-slate-500">2021.07</div>
+                                <div class="md:col-span-4 font-bold text-slate-800 text-lg md:text-base">㈜아스템즈</div>
+                                <div class="md:col-span-6 text-slate-700">[스타벅스] 온디맨드 고도화(업무시스템)[영업정보]</div>
+                            </div>
+                        
+                            <div class="md:grid md:grid-cols-12 gap-4 items-center border-b border-slate-200 pb-4">
+                                <div class="md:col-span-2 text-sm font-medium text-slate-500">2021.06</div>
+                                <div class="md:col-span-4 font-bold text-slate-800 text-lg md:text-base">㈜인젠트</div>
+                                <div class="md:col-span-6 text-slate-700">한국투자저축은행 통합 모바일앱ODS 프로젝트</div>
+                            </div>
+                        
+                            <div class="md:grid md:grid-cols-12 gap-4 items-center border-b border-slate-200 pb-4">
+                                <div class="md:col-span-2 text-sm font-medium text-slate-500">2021.06</div>
+                                <div class="md:col-span-4 font-bold text-slate-800 text-lg md:text-base">㈜신세계아이앤씨</div>
+                                <div class="md:col-span-6 text-slate-700">스타벅스 기프티콘 발급 개발</div>
+                            </div>
+                        
+                            <div class="md:grid md:grid-cols-12 gap-4 items-center border-b border-slate-200 pb-4">
+                                <div class="md:col-span-2 text-sm font-medium text-slate-500">2021.06</div>
+                                <div class="md:col-span-4 font-bold text-slate-800 text-lg md:text-base">㈜신세계아이앤씨</div>
+                                <div class="md:col-span-6 text-slate-700">[네파] IT Outsourcing ERP유지보수</div>
+                            </div>
+                        
+                            <div class="md:grid md:grid-cols-12 gap-4 items-center border-b border-slate-200 pb-4">
+                                <div class="md:col-span-2 text-sm font-medium text-slate-500">2021.05</div>
+                                <div class="md:col-span-4 font-bold text-slate-800 text-lg md:text-base">㈜엔디에스</div>
+                                <div class="md:col-span-6 text-slate-700">공공급식 통합시스템구축(심사관리)</div>
+                            </div>
+                        
+                            <div class="md:grid md:grid-cols-12 gap-4 items-center border-b border-slate-200 pb-4">
+                                <div class="md:col-span-2 text-sm font-medium text-slate-500">2021.05</div>
+                                <div class="md:col-span-4 font-bold text-slate-800 text-lg md:text-base">㈜윈위즈</div>
+                                <div class="md:col-span-6 text-slate-700">BGF 경영효율화 프로젝트</div>
+                            </div>
+                        
+                            <div class="md:grid md:grid-cols-12 gap-4 items-center border-b border-slate-200 pb-4">
+                                <div class="md:col-span-2 text-sm font-medium text-slate-500">2021.05</div>
+                                <div class="md:col-span-4 font-bold text-slate-800 text-lg md:text-base">㈜핑거</div>
+                                <div class="md:col-span-6 text-slate-700">국민은행_마이데이터_서비스,포탈,대응개발</div>
+                            </div>
+                        
+                            <div class="md:grid md:grid-cols-12 gap-4 items-center border-b border-slate-200 pb-4">
+                                <div class="md:col-span-2 text-sm font-medium text-slate-500">2021.05</div>
+                                <div class="md:col-span-4 font-bold text-slate-800 text-lg md:text-base">㈜농협정보시스템</div>
+                                <div class="md:col-span-6 text-slate-700">중앙회 위탁 업무 인력풀 활용 계약 (급여정보시스템 개선)</div>
+                            </div>
+                        
+                            <div class="md:grid md:grid-cols-12 gap-4 items-center border-b border-slate-200 pb-4">
+                                <div class="md:col-span-2 text-sm font-medium text-slate-500">2021.04</div>
+                                <div class="md:col-span-4 font-bold text-slate-800 text-lg md:text-base">㈜신세계아이앤씨</div>
+                                <div class="md:col-span-6 text-slate-700">[백화점]VIP라운지 온라인 음료 주문 개발[통합고객시스템 개발]</div>
+                            </div>
+                        
+                            <div class="md:grid md:grid-cols-12 gap-4 items-center border-b border-slate-200 pb-4">
+                                <div class="md:col-span-2 text-sm font-medium text-slate-500">2021.04</div>
+                                <div class="md:col-span-4 font-bold text-slate-800 text-lg md:text-base">㈜핑거</div>
+                                <div class="md:col-span-6 text-slate-700">농협은행 올원뱅크 2021 생활금융플랫폼화 개발추진</div>
+                            </div>
+                        
+                            <div class="md:grid md:grid-cols-12 gap-4 items-center border-b border-slate-200 pb-4">
+                                <div class="md:col-span-2 text-sm font-medium text-slate-500">2021.04</div>
+                                <div class="md:col-span-4 font-bold text-slate-800 text-lg md:text-base">㈜신세계아이앤씨</div>
+                                <div class="md:col-span-6 text-slate-700">자산 goodMD 고도화</div>
+                            </div>
+                        
+                            <div class="md:grid md:grid-cols-12 gap-4 items-center border-b border-slate-200 pb-4">
+                                <div class="md:col-span-2 text-sm font-medium text-slate-500">2021.04</div>
+                                <div class="md:col-span-4 font-bold text-slate-800 text-lg md:text-base">㈜신세계아이앤씨</div>
+                                <div class="md:col-span-6 text-slate-700">JAJU 리뉴얼 CRM 수정 개발</div>
+                            </div>
+                        
+                            <div class="md:grid md:grid-cols-12 gap-4 items-center border-b border-slate-200 pb-4">
+                                <div class="md:col-span-2 text-sm font-medium text-slate-500">2021.04</div>
+                                <div class="md:col-span-4 font-bold text-slate-800 text-lg md:text-base">㈜신세계아이앤씨</div>
+                                <div class="md:col-span-6 text-slate-700">신세계프라퍼티 셀픽 추가개발</div>
+                            </div>
+                        
+                            <div class="md:grid md:grid-cols-12 gap-4 items-center border-b border-slate-200 pb-4">
+                                <div class="md:col-span-2 text-sm font-medium text-slate-500">2021.04</div>
+                                <div class="md:col-span-4 font-bold text-slate-800 text-lg md:text-base">㈜신세계아이앤씨</div>
+                                <div class="md:col-span-6 text-slate-700">스타일난다 API 인터페이스 개발</div>
+                            </div>
+                        
+                            <div class="md:grid md:grid-cols-12 gap-4 items-center border-b border-slate-200 pb-4">
+                                <div class="md:col-span-2 text-sm font-medium text-slate-500">2021.04</div>
+                                <div class="md:col-span-4 font-bold text-slate-800 text-lg md:text-base">㈜신세계아이앤씨</div>
+                                <div class="md:col-span-6 text-slate-700">eCvan 서비스 개선</div>
+                            </div>
+                        
+                            <div class="md:grid md:grid-cols-12 gap-4 items-center border-b border-slate-200 pb-4">
+                                <div class="md:col-span-2 text-sm font-medium text-slate-500">2021.03</div>
+                                <div class="md:col-span-4 font-bold text-slate-800 text-lg md:text-base">㈜뱅크웨어글로벌</div>
+                                <div class="md:col-span-6 text-slate-700">농협중앙회 상호금융 마이데이터 플랫폼 구축_PFM 고도화</div>
+                            </div>
+                        
+                            <div class="md:grid md:grid-cols-12 gap-4 items-center border-b border-slate-200 pb-4">
+                                <div class="md:col-span-2 text-sm font-medium text-slate-500">2021.02</div>
+                                <div class="md:col-span-4 font-bold text-slate-800 text-lg md:text-base">㈜우리카드</div>
+                                <div class="md:col-span-6 text-slate-700">우리카드 위비멤버스 리뉴얼 구축</div>
+                            </div>
+                        
+                            <div class="md:grid md:grid-cols-12 gap-4 items-center pb-4">
+                                <div class="md:col-span-2 text-sm font-medium text-slate-500">2021.01</div>
+                                <div class="md:col-span-4 font-bold text-slate-800 text-lg md:text-base">㈜농협정보시스템</div>
+                                <div class="md:col-span-6 text-slate-700">금융지주 연결결산시스템 분리 구축</div>
+                            </div>
+
+                        </div>
                     </div>
                 </div>
             </div>

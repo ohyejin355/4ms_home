@@ -39,63 +39,72 @@
                     <a href="/project/project_info_2016.jsp" class="px-4 py-2 bg-primary text-white rounded-md shadow">2016년</a>
                 </div>
 
-                <div class="flex">
-                    <div class="w-1/6 text-2xl font-bold text-slate-800">2016</div>
-                    <div class="w-5/6 border-l-2 border-slate-200 pl-8">
-                        <table class="w-full text-left">
-                            <tbody class="divide-y divide-slate-200">
-                                <tr class="divide-x divide-slate-200">
-                                    <td class="py-2 px-4 w-1/6">2016.12</td>
-                                    <td class="py-2 px-4 w-2/6">스타벅스코리아</td>
-                                    <td class="py-2 px-4 w-3/6">스타벅스 유지보수 시스템 기능 개선 및 B2B ARS 결재 도입</td>
-                                </tr>
-                                <tr class="divide-x divide-slate-200">
-                                    <td class="py-2 px-4">2016.11</td>
-                                    <td class="py-2 px-4">스타벅스코리아</td>
-                                    <td class="py-2 px-4">스타벅스 전자영수증 및 쿠폰 개발</td>
-                                </tr>
-                                <tr class="divide-x divide-slate-200">
-                                    <td class="py-2 px-4">2016.11</td>
-                                    <td class="py-2 px-4">한국예선업협동조합</td>
-                                    <td class="py-2 px-4">도선 및 예선 정보시스템 정보연계를 위한 시스템 개발</td>
-                                </tr>
-                                <tr class="divide-x divide-slate-200">
-                                    <td class="py-2 px-4">2016.11</td>
-                                    <td class="py-2 px-4">㈜아스템즈</td>
-                                    <td class="py-2 px-4">신세계백화점 스마트허브 시스템 고도화</td>
-                                </tr>
-                                <tr class="divide-x divide-slate-200">
-                                    <td class="py-2 px-4">2016.10</td>
-                                    <td class="py-2 px-4">볼보그룹코리아㈜</td>
-                                    <td class="py-2 px-4">영업관리시스템(SAS) 통합 유지보수</td>
-                                </tr>
-                                <tr class="divide-x divide-slate-200">
-                                    <td class="py-2 px-4">2016.10</td>
-                                    <td class="py-2 px-4">볼보그룹코리아㈜</td>
-                                    <td class="py-2 px-4">콜센터 관리시스템 통합 유지보수</td>
-                                </tr>
-                                <tr class="divide-x divide-slate-200">
-                                    <td class="py-2 px-4">2016.10</td>
-                                    <td class="py-2 px-4">다임러트럭코리아㈜</td>
-                                    <td class="py-2 px-4">MBCV시스템 통합유지보수</td>
-                                </tr>
-                                <tr class="divide-x divide-slate-200">
-                                    <td class="py-2 px-4">2016.10</td>
-                                    <td class="py-2 px-4">㈜태창항업</td>
-                                    <td class="py-2 px-4">울산도선 통합 유지보수</td>
-                                </tr>
-                                <tr class="divide-x divide-slate-200">
-                                    <td class="py-2 px-4">2016.10</td>
-                                    <td class="py-2 px-4">㈜송도도선</td>
-                                    <td class="py-2 px-4">송도도선 통합 유지보수</td>
-                                </tr>
-                                <tr class="divide-x divide-slate-200">
-                                    <td class="py-2 px-4">2016.09</td>
-                                    <td class="py-2 px-4">㈜퓨처젠</td>
-                                    <td class="py-2 px-4">신세계백화점 협력사 지원시스템 구축</td>
-                                </tr>
-                            </tbody>
-                        </table>
+                <div class="md:flex">
+                    <div class="hidden md:block w-1/6 text-2xl font-bold text-slate-800">2016</div>
+                    <div class="w-full md:w-5/6 md:border-l-2 md:border-slate-200 md:pl-8">
+                        <div class="space-y-6">
+                            
+                            <div class="md:grid md:grid-cols-12 gap-4 items-center border-b border-slate-200 pb-4">
+                                <div class="md:col-span-2 text-sm font-medium text-slate-500">2016.12</div>
+                                <div class="md:col-span-4 font-bold text-slate-800 text-lg md:text-base">스타벅스코리아</div>
+                                <div class="md:col-span-6 text-slate-700">스타벅스 유지보수 시스템 기능 개선 및 B2B ARS 결재 도입</div>
+                            </div>
+                        
+                            <div class="md:grid md:grid-cols-12 gap-4 items-center border-b border-slate-200 pb-4">
+                                <div class="md:col-span-2 text-sm font-medium text-slate-500">2016.11</div>
+                                <div class="md:col-span-4 font-bold text-slate-800 text-lg md:text-base">스타벅스코리아</div>
+                                <div class="md:col-span-6 text-slate-700">스타벅스 전자영수증 및 쿠폰 개발</div>
+                            </div>
+                        
+                            <div class="md:grid md:grid-cols-12 gap-4 items-center border-b border-slate-200 pb-4">
+                                <div class="md:col-span-2 text-sm font-medium text-slate-500">2016.11</div>
+                                <div class="md:col-span-4 font-bold text-slate-800 text-lg md:text-base">한국예선업협동조합</div>
+                                <div class="md:col-span-6 text-slate-700">도선 및 예선 정보시스템 정보연계를 위한 시스템 개발</div>
+                            </div>
+                        
+                            <div class="md:grid md:grid-cols-12 gap-4 items-center border-b border-slate-200 pb-4">
+                                <div class="md:col-span-2 text-sm font-medium text-slate-500">2016.11</div>
+                                <div class="md:col-span-4 font-bold text-slate-800 text-lg md:text-base">㈜아스템즈</div>
+                                <div class="md:col-span-6 text-slate-700">신세계백화점 스마트허브 시스템 고도화</div>
+                            </div>
+                        
+                            <div class="md:grid md:grid-cols-12 gap-4 items-center border-b border-slate-200 pb-4">
+                                <div class="md:col-span-2 text-sm font-medium text-slate-500">2016.10</div>
+                                <div class="md:col-span-4 font-bold text-slate-800 text-lg md:text-base">볼보그룹코리아㈜</div>
+                                <div class="md:col-span-6 text-slate-700">영업관리시스템(SAS) 통합 유지보수</div>
+                            </div>
+                        
+                            <div class="md:grid md:grid-cols-12 gap-4 items-center border-b border-slate-200 pb-4">
+                                <div class="md:col-span-2 text-sm font-medium text-slate-500">2016.10</div>
+                                <div class="md:col-span-4 font-bold text-slate-800 text-lg md:text-base">볼보그룹코리아㈜</div>
+                                <div class="md:col-span-6 text-slate-700">콜센터 관리시스템 통합 유지보수</div>
+                            </div>
+                        
+                            <div class="md:grid md:grid-cols-12 gap-4 items-center border-b border-slate-200 pb-4">
+                                <div class="md:col-span-2 text-sm font-medium text-slate-500">2016.10</div>
+                                <div class="md:col-span-4 font-bold text-slate-800 text-lg md:text-base">다임러트럭코리아㈜</div>
+                                <div class="md:col-span-6 text-slate-700">MBCV시스템 통합유지보수</div>
+                            </div>
+                        
+                            <div class="md:grid md:grid-cols-12 gap-4 items-center border-b border-slate-200 pb-4">
+                                <div class="md:col-span-2 text-sm font-medium text-slate-500">2016.10</div>
+                                <div class="md:col-span-4 font-bold text-slate-800 text-lg md:text-base">㈜태창항업</div>
+                                <div class="md:col-span-6 text-slate-700">울산도선 통합 유지보수</div>
+                            </div>
+                        
+                            <div class="md:grid md:grid-cols-12 gap-4 items-center border-b border-slate-200 pb-4">
+                                <div class="md:col-span-2 text-sm font-medium text-slate-500">2016.10</div>
+                                <div class="md:col-span-4 font-bold text-slate-800 text-lg md:text-base">㈜송도도선</div>
+                                <div class="md:col-span-6 text-slate-700">송도도선 통합 유지보수</div>
+                            </div>
+                        
+                            <div class="md:grid md:grid-cols-12 gap-4 items-center pb-4">
+                                <div class="md:col-span-2 text-sm font-medium text-slate-500">2016.09</div>
+                                <div class="md:col-span-4 font-bold text-slate-800 text-lg md:text-base">㈜퓨처젠</div>
+                                <div class="md:col-span-6 text-slate-700">신세계백화점 협력사 지원시스템 구축</div>
+                            </div>
+
+                        </div>
                     </div>
                 </div>
             </div>
