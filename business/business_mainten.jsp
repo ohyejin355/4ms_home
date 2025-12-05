@@ -29,8 +29,7 @@
 
                 <div class="bg-slate-100 text-left p-12 rounded-lg mb-16 border-l-4 border-teal-600">
                     <p class="text-xl md:text-2xl font-semibold text-slate-700 leading-relaxed whitespace-pre-line">
-                        주식회사 포엠에스는 고객의 시스템 별로 각각 전담 인력을 배정하여 안정적으로 관리 및 운영을 지원하고
-                        있습니다.
+                        주식회사 포엠에스는 고객의 시스템 별로 각각 전담 인력을 배정하여 안정적으로 관리 및 운영을 지원하고 있습니다.
                     </p>
                 </div>
 
