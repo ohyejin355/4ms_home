@@ -152,50 +152,48 @@
         </div>
     </section>
 
-    <section id="solutions" class="py-16 md:py-24 bg-slate-900 text-white relative overflow-hidden">
-        <div class="absolute top-0 right-0 -mr-20 -mt-20 w-60 h-60 md:w-96 md:h-96 bg-teal-500 rounded-full blur-3xl opacity-20"></div>
-        <div class="absolute bottom-0 left-0 -ml-20 -mb-20 w-60 h-60 md:w-80 md:h-80 bg-cyan-500 rounded-full blur-3xl opacity-20"></div>
+    <section id="solutions" class="py-16 md:py-24 bg-white relative overflow-hidden">
+        <div class="absolute top-0 right-0 -mr-20 -mt-20 w-60 h-60 md:w-96 md:h-96 bg-teal-500 rounded-full blur-3xl opacity-10"></div>
+        <div class="absolute bottom-0 left-0 -ml-20 -mb-20 w-60 h-60 md:w-80 md:h-80 bg-cyan-500 rounded-full blur-3xl opacity-10"></div>
 
         <div class="max-w-7xl mx-auto px-6 lg:px-8 relative z-10">
-            <div class="flex flex-col md:flex-row justify-between items-start md:items-end mb-12 md:mb-16">
-                <div>
-                    <h2 class="text-xs md:text-sm font-bold text-teal-400 uppercase tracking-widest mb-2">Our Solutions</h2>
-                    <h3 class="text-3xl md:text-4xl font-black">혁신 기술 솔루션</h3>
-                </div>
-                <p class="text-slate-400 max-w-md mt-4 md:mt-0 text-left md:text-right text-sm md:text-base">
-                    AI와 빅데이터 기술이 집약된 포엠에스만의 솔루션으로<br class="hidden md:block"> 비즈니스의 새로운 가능성을 엽니다.
+            <div class="text-center max-w-3xl mx-auto mb-12 md:mb-16">
+                <h2 class="text-xs md:text-sm font-bold text-teal-600 uppercase tracking-widest mb-2">Our Solutions</h2>
+                <h3 class="text-3xl md:text-4xl font-black text-slate-900">혁신 기술 솔루션</h3>
+                <p class="text-slate-600 max-w-2xl mx-auto mt-4 text-sm md:text-base">
+                    AI와 빅데이터 기술이 집약된 포엠에스만의 솔루션으로 비즈니스의 새로운 가능성을 엽니다.
                 </p>
             </div>
 
             <div class="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-10">
-                <div class="group relative bg-slate-800 rounded-3xl p-1 overflow-hidden hover:bg-gradient-to-br from-teal-500 to-cyan-500 transition duration-500">
-                    <div class="bg-slate-900 h-full rounded-[20px] p-8 md:p-10 relative z-10">
+                <div class="group relative bg-slate-200 rounded-3xl p-1 overflow-hidden hover:bg-gradient-to-br from-teal-500 to-cyan-500 transition duration-500">
+                    <div class="bg-white h-full rounded-[20px] p-8 md:p-10 relative z-10">
                         <div class="flex items-center justify-between mb-8">
-                            <h4 class="text-2xl md:text-3xl font-bold text-white">ABLEBOT</h4>
-                            <span class="bg-slate-800 border border-slate-700 text-teal-400 text-xs font-bold px-3 py-1 rounded-full">AI Chatbot</span>
+                            <h4 class="text-2xl md:text-3xl font-bold text-slate-900">ABLEBOT</h4>
+                            <span class="text-xs font-bold uppercase tracking-wider text-teal-700 bg-teal-100 px-3 py-1 rounded-full">AI Chatbot</span>
                         </div>
-                        <p class="text-slate-400 mb-8 leading-relaxed text-sm md:text-base">
+                        <p class="text-slate-600 mb-8 leading-relaxed text-sm md:text-base">
                             상황 인지 기반의 **AI 챗봇 솔루션**입니다. 사용자의 의도를 유연하게 판단하는 딥러닝 엔진을 통해 24시간 끊김 없는 고객 응대를 실현합니다.
                         </p>
-                        <ul class="space-y-3 text-slate-300 border-t border-slate-800 pt-6 text-sm md:text-base">
+                        <ul class="space-y-3 text-slate-500 border-t border-slate-200 pt-6 text-sm md:text-base">
                             <li class="flex items-center"><span class="w-2 h-2 bg-teal-500 rounded-full mr-3"></span>자연어 처리 기반 의도 파악</li>
                             <li class="flex items-center"><span class="w-2 h-2 bg-teal-500 rounded-full mr-3"></span>지속적 학습을 통한 품질 향상</li>
                         </ul>
                     </div>
                 </div>
 
-                <div class="group relative bg-slate-800 rounded-3xl p-1 overflow-hidden hover:bg-gradient-to-br from-orange-400 to-red-500 transition duration-500">
-                    <div class="bg-slate-900 h-full rounded-[20px] p-8 md:p-10 relative z-10">
+                <div class="group relative bg-slate-200 rounded-3xl p-1 overflow-hidden hover:bg-gradient-to-br from-orange-400 to-red-500 transition duration-500">
+                    <div class="bg-white h-full rounded-[20px] p-8 md:p-10 relative z-10">
                         <div class="flex items-center justify-between mb-8">
-                            <h4 class="text-2xl md:text-3xl font-bold text-white">SenseHub</h4>
-                            <span class="bg-slate-800 border border-slate-700 text-orange-400 text-xs font-bold px-3 py-1 rounded-full">Smart Farm</span>
+                            <h4 class="text-2xl md:text-3xl font-bold text-slate-900">SenseHub</h4>
+                            <span class="text-xs font-bold uppercase tracking-wider text-orange-700 bg-orange-100 px-3 py-1 rounded-full">Smart Farm</span>
                         </div>
-                        <p class="text-slate-400 mb-8 leading-relaxed text-sm md:text-base whitespace-pre-line">
+                        <p class="text-slate-600 mb-8 leading-relaxed text-sm md:text-base whitespace-pre-line">
                             한우/낙농의 생산성을 극대화하는 **발정탐지기**입니다. 
                             가축의 행동데이터를 24시간 분석하여 건강 관리와 번식 효율을 획기적
                             으로 개선합니다.
                         </p>
-                        <ul class="space-y-3 text-slate-300 border-t border-slate-800 pt-6 text-sm md:text-base">
+                        <ul class="space-y-3 text-slate-500 border-t border-slate-200 pt-6 text-sm md:text-base">
                             <li class="flex items-center"><span class="w-2 h-2 bg-orange-500 rounded-full mr-3"></span>24시간 실시간 정밀 모니터링</li>
                             <li class="flex items-center"><span class="w-2 h-2 bg-orange-500 rounded-full mr-3"></span>질병 징후 조기 알림</li>
                         </ul>
