@@ -69,6 +69,7 @@
                 <div class="border-t border-slate-200 pt-16 mb-16">
                     <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
                         <div>
+                            <h3 class="text-2xl font-bold text-slate-900 mb-4">OVERVIEW</h3>
                             <p class="text-slate-600 leading-relaxed whitespace-pre-line">
                                 주식회사 포엠에스는 2016년에 설립되어 다양한 업무분야의 전문가들로 구성된 기업입니다. <br><br>
                                 '사람중심'을 창업철학으로 주식회사 포엠에스는 급변하는 IT기술 및 인프라 환경에 안정적인 서비스를 
@@ -78,13 +79,13 @@
                                 끊임 없이 행보를 이어갈 전망입니다.
                             </p>
                         </div>
-                        <img src="/imgae/sub/company_01_01.jpg" alt="overview 이미지" class="w-full h-[200px] rounded-lg shadow-xl hover:shadow-2xl transition-shadow duration-300">
+                        <img src="/imgae/sub/company_01_01.jpg" alt="overview 이미지" class="w-full aspect-video object-contain rounded-lg">
                     </div>
                 </div>
 
                 <div class="border-t border-slate-200 pt-16">
                      <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
-                        <img src="/imgae/sub/company_01_02.jpg" alt="VISION 이미지" class="w-full h-[200px] rounded-lg shadow-xl hover:shadow-2xl transition-shadow duration-300 md:order-last">
+                        <img src="/imgae/sub/company_01_02.jpg" alt="VISION 이미지" class="w-full aspect-video object-contain rounded-lg md:order-last">
                         <div>
                             <h3 class="text-2xl font-bold text-slate-900 mb-4">VISION</h3>
                             <p class="text-slate-600 leading-relaxed whitespace-pre-line">
