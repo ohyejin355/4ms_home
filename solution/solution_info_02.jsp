@@ -39,7 +39,7 @@
                         국내 금융권 챗봇은 ‘자연어처리기반’과 ‘정해진 룰 기반’ 두 가지 케이스로 운영되고 있습니다. 룰 기반 챗봇은 자연어 인지 기능이 없기에 운영자가 지속적으로 룰을 추가하는 방식으로 한계가 있으며,
                         자연어처리기반과의 차이점을 이해하는 것이 반드시 필요합니다.
                     </p>
-                    <img src="/imgae/sub/sol_02_01_img.png" alt="Chatbot types" class="mx-auto my-8">
+                    <img src="/imgae/sub/sol_02_01_img.png" alt="Chatbot types" class="mx-auto my-8 rounded-lg shadow-md">
 
                     <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
                         <div class="border rounded-lg p-6">
