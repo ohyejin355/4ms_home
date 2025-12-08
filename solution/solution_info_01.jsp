@@ -38,7 +38,7 @@
                     <p class="text-slate-700 leading-relaxed mb-8 whitespace-pre-line">
                         AI 는 ‘자연어처리기능’과 ‘자체학습기능’ 두 가지의 핵심 기능으로 구성되어 있습니다. 기업의 기존 시스템에 적용될 수 있도록 두 가지의 핵심 기능이 패키지화된 것을 AI엔진이라 하며,이러한 엔진이 효과적으로 적용 및 구동될 때에 진정한 의미의 AI라 할 수 있습니다.
                     </p>
-                    <img src="/imgae/sub/sol_01_01_img.png" alt="AI Core Functions" class="mx-auto my-8">
+                    <img src="/imgae/sub/sol_01_01_img.png" alt="AI Core Functions" class="mx-auto my-8 rounded-lg shadow-md">
 
                     <div class="border rounded-lg overflow-hidden">
                         <table class="min-w-full">
