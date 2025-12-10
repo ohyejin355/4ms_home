@@ -1,5 +1,5 @@
 <script setup>
-import { ref, onMounted, onUnmounted } from 'vue'
+import { ref, onMounted, onUnmounted } from "vue"
 
 // 1. Top 버튼 표시 여부 상태 관리
 const showBackToTop = ref(false)
@@ -15,17 +15,17 @@ const scrollToTop = (e) => {
   e.preventDefault()
   window.scrollTo({
     top: 0,
-    behavior: 'smooth',
+    behavior: "smooth",
   })
 }
 
 // 4. 라이프사이클 훅 (컴포넌트가 화면에 붙을 때 이벤트 등록, 사라질 때 해제)
 onMounted(() => {
-  window.addEventListener('scroll', handleScroll)
+  window.addEventListener("scroll", handleScroll)
 })
 
 onUnmounted(() => {
-  window.removeEventListener('scroll', handleScroll)
+  window.removeEventListener("scroll", handleScroll)
 })
 </script>
 
@@ -35,7 +35,11 @@ onUnmounted(() => {
       <div class="footer-grid">
         <div class="col-company-info">
           <router-link to="/" class="footer-logo-link">
-            <img src="/image/comm/foot_logo.png" alt="4MS Corp Logo" class="footer-logo" />
+            <img
+              src="@/assets/image/comm/foot_logo.png"
+              alt="4MS Corp Logo"
+              class="footer-logo"
+            />
           </router-link>
           <p class="company-desc">
             (주)포엠에스<br />
@@ -47,26 +51,52 @@ onUnmounted(() => {
         <div class="col-links">
           <h4 class="footer-title">Company</h4>
           <ul class="footer-list">
-            <li><router-link to="/company/info" class="link">회사소개</router-link></li>
-            <li><router-link to="/company/ceo" class="link">CEO 인사말</router-link></li>
-            <li><router-link to="/company/map" class="link">오시는 길</router-link></li>
+            <li>
+              <router-link to="/company/info" class="link"
+                >회사소개</router-link
+              >
+            </li>
+            <li>
+              <router-link to="/company/ceo" class="link"
+                >CEO 인사말</router-link
+              >
+            </li>
+            <li>
+              <router-link to="/company/map" class="link"
+                >오시는 길</router-link
+              >
+            </li>
           </ul>
         </div>
 
         <div class="col-links">
           <h4 class="footer-title">Business</h4>
           <ul class="footer-list">
-            <li><router-link to="/business" class="link">SI/SM 사업</router-link></li>
-            <li><router-link to="/solution/ai" class="link">AI 솔루션</router-link></li>
-            <li><router-link to="/solution/farm" class="link">스마트팜</router-link></li>
+            <li>
+              <router-link to="/business" class="link">SI/SM 사업</router-link>
+            </li>
+            <li>
+              <router-link to="/solution/ai" class="link"
+                >AI 솔루션</router-link
+              >
+            </li>
+            <li>
+              <router-link to="/solution/farm" class="link"
+                >스마트팜</router-link
+              >
+            </li>
           </ul>
         </div>
 
         <div class="col-links">
           <h4 class="footer-title">Contact</h4>
           <ul class="footer-list">
-            <li><a href="mailto:isdkorea1@gmail.com" class="link">개발 문의</a></li>
-            <li><a href="mailto:cmkil5150@gmail.com" class="link">운영 문의</a></li>
+            <li>
+              <a href="mailto:isdkorea1@gmail.com" class="link">개발 문의</a>
+            </li>
+            <li>
+              <a href="mailto:cmkil5150@gmail.com" class="link">운영 문의</a>
+            </li>
             <li class="info-text">Tel: 02-6954-1662</li>
             <li class="info-text">Fax: 02-6954-1663</li>
           </ul>
@@ -103,7 +133,12 @@ onUnmounted(() => {
         viewBox="0 0 24 24"
         stroke="currentColor"
       >
-        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 15l7-7 7 7" />
+        <path
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          stroke-width="2"
+          d="M5 15l7-7 7 7"
+        />
       </svg>
     </a>
   </footer>
@@ -125,7 +160,7 @@ a {
   background-color: #1e293b; /* slate-800 */
   color: #cbd5e1; /* slate-300 */
   padding-top: 4rem;
-  font-family: 'NanumGothic', sans-serif;
+  font-family: "NanumGothic", sans-serif;
 }
 
 .wrapper {

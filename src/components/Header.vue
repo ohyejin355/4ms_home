@@ -1,5 +1,5 @@
 <script setup>
-import { ref } from 'vue'
+import { ref } from "vue"
 
 // 1. 모바일 메뉴 상태 관리 (true: 열림, false: 닫힘)
 const isMenuOpen = ref(false)
@@ -26,12 +26,16 @@ const closeMenu = () => {
         <nav class="desktop-nav">
           <router-link to="/company/info" class="nav-link">About</router-link>
           <router-link to="/business" class="nav-link">Business</router-link>
-          <router-link to="/solution/ai" class="nav-link">Solutions</router-link>
+          <router-link to="/solution/ai" class="nav-link"
+            >Solutions</router-link
+          >
           <router-link to="/project" class="nav-link">Project</router-link>
         </nav>
 
         <div class="desktop-action">
-          <router-link to="/company/map" class="btn-contact"> CONTACT </router-link>
+          <router-link to="/company/map" class="btn-contact">
+            CONTACT
+          </router-link>
         </div>
 
         <div class="mobile-toggle">
@@ -50,7 +54,13 @@ const closeMenu = () => {
                 d="M4 6h16M4 12h16m-7 6h7"
               ></path>
             </svg>
-            <svg v-else class="icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <svg
+              v-else
+              class="icon"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+            >
               <path
                 stroke-linecap="round"
                 stroke-linejoin="round"
@@ -66,13 +76,22 @@ const closeMenu = () => {
     <transition name="slide-fade">
       <div v-show="isMenuOpen" class="mobile-menu-dropdown">
         <nav class="mobile-nav">
-          <router-link to="/company/info" class="mobile-link" @click="closeMenu">About</router-link>
-          <router-link to="/business" class="mobile-link" @click="closeMenu">Business</router-link>
+          <router-link to="/company/info" class="mobile-link" @click="closeMenu"
+            >About</router-link
+          >
+          <router-link to="/business" class="mobile-link" @click="closeMenu"
+            >Business</router-link
+          >
           <router-link to="/solution/ai" class="mobile-link" @click="closeMenu"
             >Solutions</router-link
           >
-          <router-link to="/project" class="mobile-link" @click="closeMenu">Project</router-link>
-          <router-link to="/company/map" class="mobile-link highlight" @click="closeMenu"
+          <router-link to="/project" class="mobile-link" @click="closeMenu"
+            >Project</router-link
+          >
+          <router-link
+            to="/company/map"
+            class="mobile-link highlight"
+            @click="closeMenu"
             >Contact</router-link
           >
         </nav>
