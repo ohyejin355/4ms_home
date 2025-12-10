@@ -101,7 +101,7 @@ const initKakaoMap = () => {
 
     // 지도의 중심 좌표
     const mapOption = {
-      center: new window.kakao.maps.LatLng(37.52187, 126.89241), // 임의의 좌표
+      center: new window.kakao.maps.LatLng(37.5147464245043, 126.897536835727),
       level: 3, // 지도 확대 레벨
     }
 
