@@ -345,6 +345,12 @@ const solutions = ref([
   width: 100%;
 }
 
+@media (min-width: 1024px) {
+  .wrapper {
+    padding: 0 2rem;
+  }
+}
+
 .section {
   padding: 4rem 0;
 }
@@ -356,7 +362,15 @@ const solutions = ref([
 }
 
 .text-center {
+  margin-bottom: 3rem;
+  max-width: 42rem;
   text-align: center;
+}
+
+@media (min-width: 768px) {
+  .text-center {
+    margin-bottom: 4rem;
+  }
 }
 
 /* SVG Icons */
@@ -393,11 +407,13 @@ const solutions = ref([
   text-transform: uppercase;
   letter-spacing: 0.1em;
   margin-bottom: 0.5rem;
+  line-height: 1rem;
 }
 
 @media (min-width: 768px) {
   .section-subtitle {
     font-size: 0.875rem;
+    line-height: 1.25rem;
   }
 }
 
@@ -406,7 +422,7 @@ const solutions = ref([
   font-weight: 900;
   color: #0f172a; /* slate-900 */
   margin-bottom: 1.5rem;
-  line-height: 1.2;
+  line-height: 2.25rem;
 }
 
 @media (min-width: 768px) {
@@ -420,12 +436,13 @@ const solutions = ref([
   font-size: 0.875rem;
   max-width: 42rem;
   margin: 1rem auto 0;
-  line-height: 1.6;
+  line-height: 1.25rem;
 }
 
 @media (min-width: 768px) {
   .section-desc {
     font-size: 1rem;
+    line-height: 1.5rem;
   }
 }
 
@@ -769,14 +786,13 @@ const solutions = ref([
 
 .business-grid {
   display: grid;
-  grid-template-columns: 1fr;
+  grid-template-columns: repeat(1, minmax(0, 1fr));
   gap: 1.5rem;
-  margin-top: 3rem;
 }
 
 @media (min-width: 768px) {
   .business-grid {
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(3, minmax(0, 1fr));
   }
 }
 
@@ -788,7 +804,7 @@ const solutions = ref([
   flex-direction: column;
   justify-content: space-between;
   transition: all 0.3s ease;
-  min-height: 320px;
+  grid-column: span 1 / span 1;
 }
 
 .biz-card:hover {
@@ -796,11 +812,11 @@ const solutions = ref([
 }
 
 .wide-card {
-  grid-column: span 1;
+  grid-column: span 1 / span 1;
 }
 @media (min-width: 768px) {
   .wide-card {
-    grid-column: span 2;
+    grid-column: span 2 / span 2;
   }
 }
 
